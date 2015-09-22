@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF05E7C91BB176040026AA95 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05E7C81BB176040026AA95 /* tableViewController.swift */; };
 		CF52D1C51BB16FF80050A40A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52D1C41BB16FF80050A40A /* AppDelegate.swift */; };
 		CF52D1C71BB16FF80050A40A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52D1C61BB16FF80050A40A /* ViewController.swift */; };
 		CF52D1CA1BB16FF80050A40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF52D1C81BB16FF80050A40A /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF05E7C81BB176040026AA95 /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		CF52D1BF1BB16FF80050A40A /* jsonADV-xcode6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jsonADV-xcode6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF52D1C31BB16FF80050A40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF52D1C41BB16FF80050A40A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				CF52D1CB1BB16FF80050A40A /* Images.xcassets */,
 				CF52D1CD1BB16FF80050A40A /* LaunchScreen.xib */,
 				CF52D1C21BB16FF80050A40A /* Supporting Files */,
+				CF05E7C81BB176040026AA95 /* tableViewController.swift */,
 			);
 			path = "jsonADV-xcode6";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF05E7C91BB176040026AA95 /* tableViewController.swift in Sources */,
 				CF52D1C71BB16FF80050A40A /* ViewController.swift in Sources */,
 				CF52D1C51BB16FF80050A40A /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				CF52D1E01BB16FF80050A40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF52D1E11BB16FF80050A40A /* Build configuration list for PBXNativeTarget "jsonADV-xcode6Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				CF52D1E31BB16FF80050A40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
