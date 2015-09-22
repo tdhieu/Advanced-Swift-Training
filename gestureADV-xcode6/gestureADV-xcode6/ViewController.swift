@@ -76,8 +76,7 @@ class ViewController: UIViewController {
             println("Button 1 Clicked!")
         } else {
             println("Button 2 Clicked!")
-        }
-        
+        }        
     }
     
     override func didReceiveMemoryWarning() {
