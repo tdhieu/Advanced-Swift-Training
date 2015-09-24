@@ -17,6 +17,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var txtName: UITextField!
     @IBOutlet var txtPass: UITextField!
     
+    var arrND:[String] = ["AAAA", "BBBB", "CCCC", "DDDD"]
+    
+    var testCell:Bool = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,28 +36,39 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return arrND.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
-        cell.textLabel?.text = "ABC" + String(indexPath.item)
+        cell.textLabel?.text = arrND[indexPath.row]
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        UIView.animateWithDuration(0.5, animations: { () -> Void in
-            self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 350
-            self.imgView.frame.origin.x = self.imgView.frame.origin.x - 350
-/*          self.txtName.text = tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.text
-            self.txtPass.text = String(indexPath.item)
-*/
-        })
-        
+        if testCell == true {
+            testCell = false
+            UIView.animateWithDuration(0.5, animations: { () -> Void in
+                self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 350
+                self.imgView.frame.origin.x = self.imgView.frame.origin.x - 350
+                /*          self.txtName.text = tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.text
+                self.txtPass.text = String(indexPath.item)
+                */
+            })
+        } else {
+            testCell = true
+            UIView.animateWithDuration(0.5, animations: { () -> Void in
+                self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 350
+                self.imgView.frame.origin.x = self.imgView.frame.origin.x + 350
+            })
+        }
     }
     
     @IBAction func btnClick(sender: AnyObject) {
+        arrND.append("123456")
+        myTableView.reloadData()
+        
         UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 350
             self.imgView.frame.origin.x = self.imgView.frame.origin.x + 350
