@@ -159,6 +159,7 @@
 		CF05E7CB1BB177D30026AA95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Duy-Hieu";
 				TargetAttributes = {
@@ -415,6 +416,7 @@
 				CF05E7F41BB177D30026AA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF05E7F51BB177D30026AA95 /* Build configuration list for PBXNativeTarget "gestureADV-xcode6Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +425,7 @@
 				CF05E7F71BB177D30026AA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

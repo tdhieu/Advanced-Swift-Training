@@ -56,11 +56,6 @@ class ViewController: UIViewController {
 
         self.view.addSubview(btn)
         
-        // Bai tap: tao cac doi tuong sau bang code
-        // 1 label "Ho Ten" - 1 textview
-        // 1 label "Ngay Sinh" - 1 textview
-        // 1 label "Email" - 1 textview
-        // 1 button nam giua man hinh
     }
     
     func tapTap(tapGesture:UITapGestureRecognizer) {
