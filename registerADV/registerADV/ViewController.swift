@@ -18,11 +18,35 @@ import UIKit
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
-        var lblHoTen:UILabel = UILabel(frame: CGRectMake(10, 20, 200, 200))
-        lblHoTen.text = "Hello"
+        let originWidth = self.view.frame.width
+        let originHeight = self.view.frame.height
+        
+        let lblHoTen:UILabel = UILabel(frame: CGRectMake(originWidth/10, originHeight/15, originWidth/6, originHeight/10))
+        lblHoTen.text = "Họ và tên:"
         self.view.addSubview(lblHoTen)
+        
+        let txtHoTen:UILabel = UILabel(frame: CGRectMake(originWidth/10 + lblHoTen.frame.width + 5, originHeight/15, originWidth * 3 / 5, originHeight/10))
+        txtHoTen.text = "Trần Đức Hiếu"
+        self.view.addSubview(txtHoTen)
+
+        let lblNgaySinh:UILabel = UILabel(frame: CGRectMake(originWidth/10, originHeight/15 + lblHoTen.frame.height + 5, originWidth/6, originHeight/10))
+        lblNgaySinh.text = "Ngày sinh:"
+        self.view.addSubview(lblNgaySinh)
+        
+        let txtNgaySinh:UILabel = UILabel(frame: CGRectMake(originWidth/10 + lblNgaySinh.frame.width + 5, originHeight/15 + lblHoTen.frame.height + 5, originWidth * 3 / 5, originHeight/10))
+        txtNgaySinh.text = "25/07/1988"
+        self.view.addSubview(txtNgaySinh)
+        
+        let lblEmail:UILabel = UILabel(frame: CGRectMake(originWidth/10, originHeight/15 + lblNgaySinh.frame.height + 5, originWidth/6, originHeight/10))
+        lblEmail.text = "Email:"
+        self.view.addSubview(lblEmail)
+        
+        let txtEmail:UILabel = UILabel(frame: CGRectMake(originWidth/10 + lblNgaySinh.frame.width + 5, originHeight/15 + lblNgaySinh.frame.height + 5, originWidth * 3 / 5, originHeight/10))
+        txtEmail.text = "tranduchieu@gmail.com"
+        self.view.addSubview(txtEmail)
     }
 
     override func didReceiveMemoryWarning() {
