@@ -66,13 +66,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func btnClick(sender: AnyObject) {
-        arrND.append("123456")
+        arrND.append("EEEE")
         myTableView.reloadData()
         
         UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 350
             self.imgView.frame.origin.x = self.imgView.frame.origin.x + 350
         })
+        testCell = true
     }
     
     override func didReceiveMemoryWarning() {
