@@ -50,18 +50,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if testCell == true {
             testCell = false
             UIView.animateWithDuration(0.5, animations: { () -> Void in
-                self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 350
-                self.imgView.frame.origin.x = self.imgView.frame.origin.x - 350
+                self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 300
+                self.imgView.frame.origin.x = self.imgView.frame.origin.x - 300
                 /*          self.txtName.text = tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.text
                 self.txtPass.text = String(indexPath.item)
                 */
             })
         } else {
             testCell = true
-            UIView.animateWithDuration(0.5, animations: { () -> Void in
-                self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 350
-                self.imgView.frame.origin.x = self.imgView.frame.origin.x + 350
+            
+            UIView.animateWithDuration(0.1, animations: { () -> Void in
+                self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 20
+                self.imgView.frame.origin.x = self.imgView.frame.origin.x - 20
+            }, completion: {
+                finished in
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 320
+                    self.imgView.frame.origin.x = self.imgView.frame.origin.x + 320
+                })
             })
+            
         }
     }
     
@@ -69,11 +77,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         arrND.append("EEEE")
         myTableView.reloadData()
         
-        UIView.animateWithDuration(0.5, animations: { () -> Void in
-            self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 350
-            self.imgView.frame.origin.x = self.imgView.frame.origin.x + 350
-        })
         testCell = true
+        UIView.animateWithDuration(0.1, animations: { () -> Void in
+            self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 20
+            self.imgView.frame.origin.x = self.imgView.frame.origin.x - 20
+            }, completion: {
+                finished in
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.myTableView.frame.origin.x = self.myTableView.frame.origin.x - 320
+                    self.imgView.frame.origin.x = self.imgView.frame.origin.x + 320
+                })
+        })
     }
     
     override func didReceiveMemoryWarning() {
