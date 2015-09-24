@@ -14,6 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet var myTableView: UITableView!
     @IBOutlet var imgView: UIImageView!
+    @IBOutlet var txtName: UITextField!
+    @IBOutlet var txtPass: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
-        cell.textLabel?.text = "ABC"
+        cell.textLabel?.text = "ABC" + String(indexPath.item)
         return cell
     }
     
@@ -44,6 +46,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.myTableView.frame.origin.x = self.myTableView.frame.origin.x + 350
             self.imgView.frame.origin.x = self.imgView.frame.origin.x - 350
+/*          self.txtName.text = tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.text
+            self.txtPass.text = String(indexPath.item)
+*/
         })
         
     }

@@ -70,6 +70,8 @@
                     <connections>
                         <outlet property="imgView" destination="lJt-pB-RcE" id="tbc-le-Cvf"/>
                         <outlet property="myTableView" destination="DRr-51-SjZ" id="keJ-bk-ECm"/>
+                        <outlet property="txtName" destination="9J8-0Y-W6s" id="M67-NN-Z5D"/>
+                        <outlet property="txtPass" destination="elm-Uf-xBG" id="7Yn-Uw-mT6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
