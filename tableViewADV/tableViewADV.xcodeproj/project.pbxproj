@@ -13,6 +13,7 @@
 		CF04F4E51BB40BAE005D737C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF04F4E41BB40BAE005D737C /* Images.xcassets */; };
 		CF04F4E81BB40BAE005D737C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF04F4E61BB40BAE005D737C /* LaunchScreen.xib */; };
 		CF04F4F41BB40BAE005D737C /* tableViewADVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04F4F31BB40BAE005D737C /* tableViewADVTests.swift */; };
+		CF04F4FE1BB40F8B005D737C /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF04F4FD1BB40F8B005D737C /* banner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CF04F4ED1BB40BAE005D737C /* tableViewADVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewADVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF04F4F21BB40BAE005D737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF04F4F31BB40BAE005D737C /* tableViewADVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewADVTests.swift; sourceTree = "<group>"; };
+		CF04F4FD1BB40F8B005D737C /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CF04F4DA1BB40BAE005D737C /* tableViewADV */ = {
 			isa = PBXGroup;
 			children = (
+				CF04F4FD1BB40F8B005D737C /* banner.jpg */,
 				CF04F4DD1BB40BAE005D737C /* AppDelegate.swift */,
 				CF04F4DF1BB40BAE005D737C /* ViewController.swift */,
 				CF04F4E11BB40BAE005D737C /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				CF04F4E31BB40BAE005D737C /* Main.storyboard in Resources */,
 				CF04F4E81BB40BAE005D737C /* LaunchScreen.xib in Resources */,
 				CF04F4E51BB40BAE005D737C /* Images.xcassets in Resources */,
+				CF04F4FE1BB40F8B005D737C /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
