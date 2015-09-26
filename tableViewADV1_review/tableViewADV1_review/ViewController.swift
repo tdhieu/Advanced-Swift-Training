@@ -99,6 +99,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         arrND.insert(removedElement, atIndex: destinationIndexPath.row)
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let cell = myTableView.cellForRowAtIndexPath(indexPath)
+        if cell?.accessoryType == UITableViewCellAccessoryType.Checkmark {
+            cell?.accessoryType = UITableViewCellAccessoryType.None
+        } else {
+            cell?.accessoryType = UITableViewCellAccessoryType.Checkmark
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
