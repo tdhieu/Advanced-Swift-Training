@@ -26,19 +26,40 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func editTableView(sender: AnyObject) {
         // Tu dong chuyen trang thai edit hoac ko edit
-        myTableView.editing = !myTableView.editing
-        var alert:UIAlertController = UIAlertController(title: "Confirm!!", message: "Select insert or edit", preferredStyle: UIAlertControllerStyle.ActionSheet)
+        var alert:UIAlertController = UIAlertController(title: "Confirm!!", message: "Select Insert or Edit", preferredStyle: UIAlertControllerStyle.ActionSheet)
         
-        var action:UIAlertAction = UIAlertAction(title: "Insert", style: UIAlertActionStyle.Default) { (finished in ) -> Void in
-            self.myView.hidden = false
-        }
+        var actionInsert:UIAlertAction = UIAlertAction(title: "Insert", style: UIAlertActionStyle.Default, handler: {
+            finished in
+            UIView.animateWithDuration(0.3, animations: { () -> Void in
+                self.myTableView.frame.origin.x -= 300
+                self.myTableView.hidden = true
+            }, completion: {
+                finished in
+                self.myView.hidden = false
+            })
+        })
+        
+        alert.addAction(actionInsert)
+        
+        var actionEdit:UIAlertAction = UIAlertAction(title: "Edit", style: UIAlertActionStyle.Default, handler: {
+            finished in
+            self.myTableView.editing = !self.myTableView.editing
+        })
+        
+        alert.addAction(actionEdit)
+        
+        self.presentViewController(alert, animated: true, completion: nil)
     }
     
     @IBOutlet var txtContent: UITextField!
     
     @IBAction func btnInsert(sender: AnyObject) {
-        
-        
+        arrND.append(txtContent.text)
+        myTableView.reloadData()
+        self.myView.hidden = true
+        self.myTableView.hidden = false
+        self.myTableView.frame.origin.x += 300
+        self.txtContent.text = ""
     }
     
     
