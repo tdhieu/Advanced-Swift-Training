@@ -13,9 +13,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var myTableView: UITableView!
     
     var arrND:[String] = ["11111", "22222", "33333", "44444", "55555", "66666", "77777"]
+    var arrCheck:[Int] = [0,0,0,0,0,0,0]
     
     @IBOutlet var myView: UIView!
     
+    /* Bai tap ve nha:
+        TableView co 1 nut chon
+        TableView co 2 cot du lieu
+        Co cac Button de check va uncheck
+    */
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.delegate = self
@@ -104,8 +110,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = myTableView.cellForRowAtIndexPath(indexPath)
         if cell?.accessoryType == UITableViewCellAccessoryType.Checkmark {
             cell?.accessoryType = UITableViewCellAccessoryType.None
+            arrCheck[indexPath.row] = 0
+            for i in 0...arrCheck.count-1 {
+                if arrCheck[i] == 1 {
+                    print(arrND[i] + "\n")
+                }
+            }
+            
         } else {
             cell?.accessoryType = UITableViewCellAccessoryType.Checkmark
+            arrCheck[indexPath.row] = 1
         }
     }
     
