@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>02C368A7-D1E0-44AD-8EBE-2C36A44A21DD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>tableViewADV1_review</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
 		<string>https://github.com/tdhieu/Advanced-Swift-Training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tableViewADV1_review/tableViewADV1_review.xcodeproj/project.xcworkspace</string>
+	<string>tableViewADV1_review/tableViewADV1_review.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>

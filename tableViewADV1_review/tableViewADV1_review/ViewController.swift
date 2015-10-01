@@ -17,11 +17,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet var myView: UIView!
     
-    /* Bai tap ve nha:
-        TableView co 1 nut chon
-        TableView co 2 cot du lieu
-        Co cac Button de check va uncheck
-    */
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.delegate = self

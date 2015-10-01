@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>49DEF9A6-D53C-4134-B765-8500A60C76DD</string>
+	<string>60E73D09-25CE-4413-B302-F469A855EC17</string>
 	<key>IDESourceControlProjectName</key>
-	<string>gestureADV-xcode6</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
 		<string>https://github.com/tdhieu/Advanced-Swift-Training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>gestureADV-xcode6/gestureADV-xcode6.xcodeproj</string>
+	<string>AdvThreeTableViewInteract/AdvThreeTableViewInteract.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
