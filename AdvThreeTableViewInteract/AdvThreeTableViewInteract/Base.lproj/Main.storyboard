@@ -19,19 +19,19 @@
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4RA-Rq-jeq">
                                 <rect key="frame" x="0.0" y="0.0" width="179" height="320"/>
                                 <connections>
-                                    <segue destination="SQd-Wc-Vmq" kind="embed" id="N4t-zF-ZzO"/>
+                                    <segue destination="SQd-Wc-Vmq" kind="embed" id="Our-NA-uEg"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQS-Rh-h6h">
                                 <rect key="frame" x="179" y="0.0" width="192" height="320"/>
                                 <connections>
-                                    <segue destination="bl5-cC-zfs" kind="embed" id="0x0-gx-tIb"/>
+                                    <segue destination="bl5-cC-zfs" kind="embed" id="ggq-1w-93y"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="arN-98-p6F">
                                 <rect key="frame" x="371" y="0.0" width="197" height="320"/>
                                 <connections>
-                                    <segue destination="Vx6-p7-YAY" kind="embed" id="tCr-2l-nk5"/>
+                                    <segue destination="Vx6-p7-YAY" kind="embed" id="KOG-fa-9k1"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="373" y="152"/>
         </scene>
-        <!--Left Table View Controller-->
+        <!--Left View Controller-->
         <scene sceneID="sGM-ko-SmY">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="SQd-Wc-Vmq" customClass="LeftTableViewController" customModule="AdvThreeTableViewInteract" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="SQd-Wc-Vmq" customClass="LeftViewController" customModule="AdvThreeTableViewInteract" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QMS-mI-oVP"/>
                         <viewControllerLayoutGuide type="bottom" id="wqF-m5-t5Q"/>
@@ -90,17 +90,17 @@
                     </view>
                     <toolbarItems/>
                     <connections>
-                        <outlet property="myLeftTableView" destination="bSy-zn-RCw" id="hr0-S1-kyv"/>
+                        <outlet property="myLeftTableView" destination="bSy-zn-RCw" id="5hY-1k-e3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLS-ec-hOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="173.5" y="607"/>
+            <point key="canvasLocation" x="166.5" y="586"/>
         </scene>
-        <!--Middle Table View Controller-->
+        <!--Middle View Controller-->
         <scene sceneID="uPY-9F-tSl">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bl5-cC-zfs" customClass="MiddleTableViewController" customModule="AdvThreeTableViewInteract" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bl5-cC-zfs" customClass="MiddleViewController" customModule="AdvThreeTableViewInteract" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rlC-tU-vIA"/>
                         <viewControllerLayoutGuide type="bottom" id="0G3-0m-ABu"/>
@@ -143,17 +143,17 @@
                     </view>
                     <toolbarItems/>
                     <connections>
-                        <outlet property="myMiddleTableView" destination="eHe-Va-Pmt" id="P4V-mO-YaR"/>
+                        <outlet property="myMiddleTableView" destination="eHe-Va-Pmt" id="imY-Ur-Ip9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TUb-at-WB2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="360" y="607"/>
+            <point key="canvasLocation" x="373" y="586"/>
         </scene>
-        <!--Right Table View Controller-->
+        <!--Right View Controller-->
         <scene sceneID="b8E-4b-tMW">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Vx6-p7-YAY" customClass="RightTableViewController" customModule="AdvThreeTableViewInteract" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Vx6-p7-YAY" customClass="RightViewController" customModule="AdvThreeTableViewInteract" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nW5-In-cha"/>
                         <viewControllerLayoutGuide type="bottom" id="lMf-kJ-Rfy"/>
@@ -196,12 +196,12 @@
                     </view>
                     <toolbarItems/>
                     <connections>
-                        <outlet property="myRightTableView" destination="LG1-eI-axM" id="hDh-CQ-TJb"/>
+                        <outlet property="myRightTableView" destination="LG1-eI-axM" id="Hdw-rF-8Kt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="00a-8X-mPD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="558.5" y="607"/>
+            <point key="canvasLocation" x="580.5" y="586"/>
         </scene>
     </scenes>
 </document>

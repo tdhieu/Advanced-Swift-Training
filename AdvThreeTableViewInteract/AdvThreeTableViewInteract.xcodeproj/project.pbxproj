@@ -13,12 +13,12 @@
 		CF0B440F1BBAF85600735D75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0B440E1BBAF85600735D75 /* Images.xcassets */; };
 		CF0B44121BBAF85600735D75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0B44101BBAF85600735D75 /* LaunchScreen.xib */; };
 		CF0B441E1BBAF85700735D75 /* AdvThreeTableViewInteractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B441D1BBAF85700735D75 /* AdvThreeTableViewInteractTests.swift */; };
-		CF0B44281BBAF9E600735D75 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B44271BBAF9E600735D75 /* LeftTableViewController.swift */; };
-		CF0B442A1BBAF9F600735D75 /* MiddleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B44291BBAF9F600735D75 /* MiddleTableViewController.swift */; };
-		CF0B442C1BBAFA0000735D75 /* RightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B442B1BBAFA0000735D75 /* RightTableViewController.swift */; };
 		CF0B442E1BBAFA1400735D75 /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B442D1BBAFA1400735D75 /* LeftTableViewCell.swift */; };
 		CF0B44301BBAFA2100735D75 /* RightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B442F1BBAFA2100735D75 /* RightTableViewCell.swift */; };
 		CF0B44321BBAFA2D00735D75 /* MiddleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B44311BBAFA2D00735D75 /* MiddleTableViewCell.swift */; };
+		CFFD0FC01BBD3D1400B475E6 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD0FBF1BBD3D1400B475E6 /* LeftViewController.swift */; };
+		CFFD0FC21BBD3D2200B475E6 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD0FC11BBD3D2200B475E6 /* MiddleViewController.swift */; };
+		CFFD0FC41BBD3D2E00B475E6 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD0FC31BBD3D2E00B475E6 /* RightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +42,12 @@
 		CF0B44171BBAF85700735D75 /* AdvThreeTableViewInteractTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvThreeTableViewInteractTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0B441C1BBAF85700735D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF0B441D1BBAF85700735D75 /* AdvThreeTableViewInteractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvThreeTableViewInteractTests.swift; sourceTree = "<group>"; };
-		CF0B44271BBAF9E600735D75 /* LeftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
-		CF0B44291BBAF9F600735D75 /* MiddleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleTableViewController.swift; sourceTree = "<group>"; };
-		CF0B442B1BBAFA0000735D75 /* RightTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightTableViewController.swift; sourceTree = "<group>"; };
 		CF0B442D1BBAFA1400735D75 /* LeftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
 		CF0B442F1BBAFA2100735D75 /* RightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightTableViewCell.swift; sourceTree = "<group>"; };
 		CF0B44311BBAFA2D00735D75 /* MiddleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleTableViewCell.swift; sourceTree = "<group>"; };
+		CFFD0FBF1BBD3D1400B475E6 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		CFFD0FC11BBD3D2200B475E6 /* MiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		CFFD0FC31BBD3D2E00B475E6 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +95,12 @@
 				CF0B440E1BBAF85600735D75 /* Images.xcassets */,
 				CF0B44101BBAF85600735D75 /* LaunchScreen.xib */,
 				CF0B44051BBAF85600735D75 /* Supporting Files */,
-				CF0B44271BBAF9E600735D75 /* LeftTableViewController.swift */,
-				CF0B44291BBAF9F600735D75 /* MiddleTableViewController.swift */,
-				CF0B442B1BBAFA0000735D75 /* RightTableViewController.swift */,
 				CF0B442D1BBAFA1400735D75 /* LeftTableViewCell.swift */,
 				CF0B442F1BBAFA2100735D75 /* RightTableViewCell.swift */,
 				CF0B44311BBAFA2D00735D75 /* MiddleTableViewCell.swift */,
+				CFFD0FBF1BBD3D1400B475E6 /* LeftViewController.swift */,
+				CFFD0FC11BBD3D2200B475E6 /* MiddleViewController.swift */,
+				CFFD0FC31BBD3D2E00B475E6 /* RightViewController.swift */,
 			);
 			path = AdvThreeTableViewInteract;
 			sourceTree = "<group>";
@@ -231,13 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0B442A1BBAF9F600735D75 /* MiddleTableViewController.swift in Sources */,
 				CF0B44301BBAFA2100735D75 /* RightTableViewCell.swift in Sources */,
+				CFFD0FC41BBD3D2E00B475E6 /* RightViewController.swift in Sources */,
 				CF0B440A1BBAF85600735D75 /* ViewController.swift in Sources */,
-				CF0B44281BBAF9E600735D75 /* LeftTableViewController.swift in Sources */,
-				CF0B442C1BBAFA0000735D75 /* RightTableViewController.swift in Sources */,
 				CF0B442E1BBAFA1400735D75 /* LeftTableViewCell.swift in Sources */,
+				CFFD0FC01BBD3D1400B475E6 /* LeftViewController.swift in Sources */,
 				CF0B44321BBAFA2D00735D75 /* MiddleTableViewCell.swift in Sources */,
+				CFFD0FC21BBD3D2200B475E6 /* MiddleViewController.swift in Sources */,
 				CF0B44081BBAF85600735D75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

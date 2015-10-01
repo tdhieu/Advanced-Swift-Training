@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>60E73D09-25CE-4413-B302-F469A855EC17</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>AdvThreeTableViewInteract</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
 		<string>https://github.com/tdhieu/Advanced-Swift-Training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AdvThreeTableViewInteract/AdvThreeTableViewInteract.xcodeproj/project.xcworkspace</string>
+	<string>AdvThreeTableViewInteract/AdvThreeTableViewInteract.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
