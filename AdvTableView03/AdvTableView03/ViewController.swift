@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Duy-Hieu. All rights reserved.
 //
 
+// TableView with Animation
+
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
