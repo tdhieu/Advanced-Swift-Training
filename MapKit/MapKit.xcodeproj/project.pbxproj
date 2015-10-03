@@ -156,6 +156,7 @@
 		CFA9F18E1BBFE8CF00D675FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Duy-Hieu";
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				CFA9F1B71BBFE8CF00D675FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA9F1B81BBFE8CF00D675FD /* Build configuration list for PBXNativeTarget "MapKitTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				CFA9F1BA1BBFE8CF00D675FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

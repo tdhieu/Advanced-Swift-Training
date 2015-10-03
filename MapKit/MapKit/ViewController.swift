@@ -40,7 +40,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             // Array myLocation co phan tu
             if myLocation.count > 0 {
                 let vitri = myLocation[0] as! CLPlacemark
-                
+                print(vitri.location)
             }
         })
     }
