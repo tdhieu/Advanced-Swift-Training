@@ -16,15 +16,35 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         locationManager.delegate = self
         
-        // Xac dinh tinh chinh xac vi tri cua minh
+        // Xac dinh do chinh xac vi tri cua minh
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         
-        // Xac dinh xem nguoi dung co cho phep app truy cap den vi tri cua minh hay ko
+        // Xac dinh xem nguoi dung co cho phep truy cap den vi tri cua minh hay ko
         locationManager.requestAlwaysAuthorization()
         
         locationManager.startUpdatingLocation()
     }
 
+    // fucntion duoc goi lien tuc khi di chuyen de load vi tri moi
+    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+        
+        // Ham tra ve vi tri va lo~i neu co'
+        CLGeocoder().reverseGeocodeLocation(manager.location, completionHandler: {
+            (myLocation, error) -> Void in
+            if error != nil {
+                print("Error!!\n")
+                return
+            }
+            
+            
+            // Array myLocation co phan tu
+            if myLocation.count > 0 {
+                let vitri = myLocation[0] as! CLPlacemark
+                
+            }
+        })
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
