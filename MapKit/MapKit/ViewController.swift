@@ -8,10 +8,14 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
     let locationManager = CLLocationManager()
+    
+    @IBOutlet var myMap: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         locationManager.delegate = self
@@ -44,12 +48,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func DisplayLocationInfo(vitri: CLPlacemark) {
+        let longitude = vitri.location.coordinate.longitude
+        let latitude = vitri.location.coordinate.latitude
+        println(vitri.location)
+/*        println(vitri.addressDictionary)
         println(vitri.locality)
         println(vitri.postalCode)
         println(vitri.administrativeArea)
+        println(vitri.subAdministrativeArea)
         println(vitri.country)
-        println(vitri.location)
-        println(vitri.addressDictionary)
+        println(vitri.postalCode)
+        println(vitri.subLocality) */
+        
+        var annotation = MKPointAnnotation()
+        annotation.title = "My Location"
+        annotation.coordinate = vitri.location.coordinate
+        self.myMap.addAnnotation(annotation)
     }
     
     
