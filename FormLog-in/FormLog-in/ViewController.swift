@@ -35,16 +35,41 @@ class ViewController: UIViewController {
     @IBOutlet var lblSuccess: UILabel!
     @IBOutlet var btnLogin: UIButton!
     
+    var orgLblUsrNamePoint: CGPoint = CGPoint()
+    var orgTxtUsrNamePoint: CGPoint = CGPoint()
+    var orgLblPassPoint: CGPoint = CGPoint()
+    var orgTxtPassPoint: CGPoint = CGPoint()
+    var orgBtnPoint: CGPoint = CGPoint()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        SetInitialPosition()
-        let moveInTransform = CATransform3DTranslate(CATransform3DIdentity, -100, 10, 0)
+//        SetInitialPosition()
+        
+        let numberMove:CGFloat = 10.0
+        
+        let moveInTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
+        
+        UIView.animateWithDuration(1, animations: {
+            self.lblUserName.frame.origin.x = self.lblUserName.frame.origin.x + numberMove
+            self.txtUserName.frame.origin.x = self.txtUserName.frame.origin.x + numberMove
+/*            while self.lblUserName.frame.origin.x != self.orgTxtUsrNamePoint.x {
+                self.lblUserName.frame.origin.x = self.lblUserName.frame.origin.x + numberMove
+            }*/
+        })
     }
     
     func SetInitialPosition() {
-        lblUserName.layer.frame.origin.x -= 100.0
-        txtUserName.layer.frame.origin.x -= 100.0
+        orgLblUsrNamePoint = lblUserName.frame.origin
+        orgTxtUsrNamePoint = txtUserName.frame.origin
+        
+        lblUserName.frame.origin.x -= 100.0
+        txtUserName.frame.origin.x -= 100.0
+        
+        orgLblPassPoint = lblPass.frame.origin
+        orgTxtPassPoint = txtPass.frame.origin
+        
+        lblPass.frame.origin.x -= 100.0
+        txtPass.frame.origin.x -= 100.0
     }
 
     override func didReceiveMemoryWarning() {

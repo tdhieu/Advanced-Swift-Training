@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>374E78CC-FD89-411C-9AA4-419EC81E515F</string>
+	<string>4E81FC47-1F9F-4998-B3B4-C505C2E2E99C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FormLog-in</string>
+	<string>ReviewTableView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
 		<string>https://github.com/tdhieu/Advanced-Swift-Training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FormLog-in/FormLog-in.xcodeproj</string>
+	<string>ReviewTableView/ReviewTableView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>313ED6965B018D00286FAAF5846781F4DA21F116</key>
