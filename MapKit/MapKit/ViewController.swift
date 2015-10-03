@@ -29,27 +29,33 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
         // Ham tra ve vi tri va lo~i neu co'
-        CLGeocoder().reverseGeocodeLocation(manager.location, completionHandler: {
-            (myLocation, error) -> Void in
+        CLGeocoder().reverseGeocodeLocation(manager.location, completionHandler: { (myLocation, error) -> Void in
             if error != nil {
                 print("Error!!\n")
                 return
             }
             
-            
             // Array myLocation co phan tu
             if myLocation.count > 0 {
                 let vitri = myLocation[0] as! CLPlacemark
-                print(vitri.location)
+                self.DisplayLocationInfo(vitri)
             }
         })
     }
+    
+    func DisplayLocationInfo(vitri: CLPlacemark) {
+        println(vitri.locality)
+        println(vitri.postalCode)
+        println(vitri.administrativeArea)
+        println(vitri.country)
+        println(vitri.location)
+        println(vitri.addressDictionary)
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
