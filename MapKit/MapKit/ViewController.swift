@@ -27,8 +27,24 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestAlwaysAuthorization()
         
         locationManager.startUpdatingLocation()
+        
+        myMap.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: "CreateLocation:"))
     }
 
+    func CreateLocation(recognizer: UILongPressGestureRecognizer){
+        
+        // Lay toa do cua ngon tay cham tren man hinh
+        let myTouch = recognizer.locationInView(self.myMap)
+        
+        // Chuyen doi toa do cua ngon tay thanh toa do cua man do (kinh do, vi do)
+        let newCoordinate:CLLocationCoordinate2D = myMap.convertPoint(myTouch, toCoordinateFromView: self.myMap)
+        
+        var annotation = MKPointAnnotation()
+        annotation.title = "Toa do moi"
+        annotation.coordinate = newCoordinate
+        self.myMap.addAnnotation(annotation)
+    }
+    
     // fucntion duoc goi lien tuc khi di chuyen de load vi tri moi
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
@@ -60,10 +76,23 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         println(vitri.postalCode)
         println(vitri.subLocality) */
         
+        let latDelta:CLLocationDegrees = 0.01
+        let lonDelta:CLLocationDegrees = 0.1
+        
         var annotation = MKPointAnnotation()
         annotation.title = "My Location"
         annotation.coordinate = vitri.location.coordinate
         self.myMap.addAnnotation(annotation)
+        
+        // Tao bien truyen ti le zoom vao
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(latDelta, lonDelta)
+        // Tao bien toa do location
+        let location:CLLocationCoordinate2D = vitri.location.coordinate
+        // Gan cac bien vao cho region
+        let region:MKCoordinateRegion = MKCoordinateRegion(center: location, span: span)
+        // Roi add vao ban do
+        self.myMap.setRegion(region, animated: true)
+
     }
     
     
