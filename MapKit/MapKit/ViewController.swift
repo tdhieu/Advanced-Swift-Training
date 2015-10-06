@@ -10,9 +10,11 @@ import UIKit
 import CoreLocation
 import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
     let locationManager = CLLocationManager()
+    
+    var myRoute:MKRoute = MKRoute()
     
     @IBOutlet var myMap: MKMapView!
     
@@ -52,6 +54,47 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         var result = pointA.distanceFromLocation(pointB) // gia tri khoang cach la metre
         
         print(String(stringInterpolationSegment: result/1000) + "km\n")
+        
+        
+        // Ve duo`ng di cho 2 diem
+        var point1 = MKPointAnnotation()
+        var point2 = MKPointAnnotation()
+        
+        point1.coordinate = pointA.coordinate
+        myMap.addAnnotation(point1)
+        
+        point2.coordinate = pointB.coordinate
+        myMap.addAnnotation(point2)
+        
+        // Span of the map
+        myMap.setRegion(MKCoordinateRegionMake(point2.coordinate, MKCoordinateSpanMake(0.01, 0.01)), animated: true)
+        
+        var directionsRequest = MKDirectionsRequest()
+        
+        // Chuyen vi tri cua 2 annotation ve` da.ng MKPlavemark
+        let position1 = MKPlacemark(coordinate: CLLocationCoordinate2DMake(point1.coordinate.latitude, point1.coordinate.longitude), addressDictionary: nil)
+        
+        let position2 = MKPlacemark(coordinate: CLLocationCoordinate2DMake(point2.coordinate.latitude, point2.coordinate.longitude), addressDictionary: nil)
+        
+        // Xác định vẽ đường đi từ đâu:
+        directionsRequest.setSource(MKMapItem(placemark: position1))
+        
+        // Xác định vẽ đường đi đến đâu:
+        directionsRequest.setDestination(MKMapItem(placemark: position2))
+        
+        // Xác định kiểu vẽ đường đi: đi bộ, đi xe,...
+        directionsRequest.transportType = MKDirectionsTransportType.Automobile
+        
+        // Tien ha`nh ve~ duo`ng di
+        var directions = MKDirections(request: directionsRequest)
+        
+        directions.calculateDirectionsWithCompletionHandler { (response: MKDirectionsResponse!, error: NSError!) -> Void in
+            if error == nil {
+                // Kiem tra neu khong co loi thi lay phan tu duong di da`u tien cua routes va` add va`o map
+                self.myRoute = (response.routes[0] as? MKRoute)!
+                self.myMap.addOverlay(self.myRoute.polyline)
+            }
+        }
     }
     
     // fucntion duoc goi lien tuc khi di chuyen de load vi tri moi
