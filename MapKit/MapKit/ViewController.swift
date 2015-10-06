@@ -30,6 +30,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         locationManager.startUpdatingLocation()
         
+        myMap.delegate = self
+        
         myMap.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: "CreateLocation:"))
     }
 
@@ -53,10 +55,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         var result = pointA.distanceFromLocation(pointB) // gia tri khoang cach la metre
         
-        print(String(stringInterpolationSegment: result/1000) + "km\n")
+//        print(String(stringInterpolationSegment: result/1000) + "km\n")
         
         
-        // Ve duo`ng di cho 2 diem
+        // Ve duo`ng di cho 2 diem, 2 diem nay phai thuoc loai MKPointAnnotation thi` MapKit moi ve duoc
         var point1 = MKPointAnnotation()
         var point2 = MKPointAnnotation()
         
@@ -67,11 +69,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         myMap.addAnnotation(point2)
         
         // Span of the map
-        myMap.setRegion(MKCoordinateRegionMake(point2.coordinate, MKCoordinateSpanMake(0.01, 0.01)), animated: true)
+        myMap.setRegion(MKCoordinateRegionMake(point1.coordinate, MKCoordinateSpanMake(0.01, 0.01)), animated: true)
         
         var directionsRequest = MKDirectionsRequest()
         
-        // Chuyen vi tri cua 2 annotation ve` da.ng MKPlavemark
+        // Chuyen vi tri cua 2 annotation ve` da.ng MKPlacemark
         let position1 = MKPlacemark(coordinate: CLLocationCoordinate2DMake(point1.coordinate.latitude, point1.coordinate.longitude), addressDictionary: nil)
         
         let position2 = MKPlacemark(coordinate: CLLocationCoordinate2DMake(point2.coordinate.latitude, point2.coordinate.longitude), addressDictionary: nil)
@@ -97,6 +99,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         }
     }
     
+    // Điều chỉnh map để hiển thị đường đi giữa hai điểm
+    func mapView(mapView:MKMapView!, rendererForOverlay overlay:MKOverlay!) -> MKOverlayRenderer! {
+        var myLineRenderer = MKPolylineRenderer(polyline: myRoute.polyline)
+        myLineRenderer.strokeColor = UIColor.redColor()
+        myLineRenderer.lineWidth = 3
+        return myLineRenderer
+    }
+    
     // fucntion duoc goi lien tuc khi di chuyen de load vi tri moi
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
@@ -118,8 +128,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     func DisplayLocationInfo(vitri: CLPlacemark) {
         let longitude = vitri.location.coordinate.longitude
         let latitude = vitri.location.coordinate.latitude
-        println(vitri.location)
-/*        println(vitri.addressDictionary)
+/*        println(vitri.location)
+        println(vitri.addressDictionary)
         println(vitri.locality)
         println(vitri.postalCode)
         println(vitri.administrativeArea)
