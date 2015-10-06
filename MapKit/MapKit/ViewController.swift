@@ -107,7 +107,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         directionsRequest.setDestination(MKMapItem(placemark: position2))
         
         // Xác định kiểu vẽ đường đi: đi bộ, đi xe,...
-        directionsRequest.transportType = MKDirectionsTransportType.Automobile
+        directionsRequest.transportType = MKDirectionsTransportType.Walking
         
         // Tien ha`nh ve~ duo`ng di
         var directions = MKDirections(request: directionsRequest)
