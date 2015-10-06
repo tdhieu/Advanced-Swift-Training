@@ -32,9 +32,31 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         myMap.delegate = self
         
+        myMap.mapType = MKMapType.Hybrid
+        
         myMap.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: "CreateLocation:"))
+        
+        
+        // Chuyen tu` dia chi tha`nh toa do tren map
+        var address = "44 nguyen an ninh, phuong vinh bao, rach gia, kien giang, viet nam"
+        var geocoder = CLGeocoder()
+        // Tiến hành chuyển đổi từ địa chỉ ở trên thành placemarks và từ placemark mình có thể lấy được nhiều thông
+        // tin khác nhau như vitri...
+        
+        geocoder.geocodeAddressString(address, completionHandler: { (placemarks: [AnyObject]!, error: NSError!) -> Void in
+            if let placemark = placemarks?[0] as? CLPlacemark {
+                self.myMap.addAnnotation(MKPlacemark(placemark: placemark))
+            }
+        })
     }
 
+    
+    // Bai tap viet ung dung nhap 2 diem (dia chi) va cho ve duong di tu` diem nay den diem kia
+    // Co 2 chuc nang: tu nhap dia chi, xac dinh toa do
+    // Cho chon 3 chuc nang hien thi
+    // Hien thi icon tai vi tri cua mi`nh
+    // Guide: var a:MKAnnotationView
+    
     func CreateLocation(recognizer: UILongPressGestureRecognizer){
         
         // Lay toa do cua ngon tay cham tren man hinh
@@ -69,7 +91,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         myMap.addAnnotation(point2)
         
         // Span of the map
-        myMap.setRegion(MKCoordinateRegionMake(point1.coordinate, MKCoordinateSpanMake(0.01, 0.01)), animated: true)
+//        myMap.setRegion(MKCoordinateRegionMake(point2.coordinate, MKCoordinateSpanMake(0.01, 0.01)), animated: true)
         
         var directionsRequest = MKDirectionsRequest()
         
