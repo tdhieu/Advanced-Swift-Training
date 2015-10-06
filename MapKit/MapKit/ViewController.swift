@@ -24,7 +24,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         
         // Xac dinh xem nguoi dung co cho phep truy cap den vi tri cua minh hay ko
-        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
         
         locationManager.startUpdatingLocation()
         
@@ -36,13 +36,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Lay toa do cua ngon tay cham tren man hinh
         let myTouch = recognizer.locationInView(self.myMap)
         
-        // Chuyen doi toa do cua ngon tay thanh toa do cua man do (kinh do, vi do)
+        // Chuyen doi toa do cua ngon tay thanh toa do cua ban do (kinh do, vi do)
         let newCoordinate:CLLocationCoordinate2D = myMap.convertPoint(myTouch, toCoordinateFromView: self.myMap)
         
         var annotation = MKPointAnnotation()
         annotation.title = "Toa do moi"
         annotation.coordinate = newCoordinate
         self.myMap.addAnnotation(annotation)
+        
+        var pointA:CLLocation = CLLocation(latitude: locationManager.location.coordinate.latitude, longitude: locationManager.location.coordinate.longitude)
+        
+        // Chuyen doi gia tri tu Coordinate thanh CLLocation
+        var pointB:CLLocation = CLLocation(latitude: newCoordinate.latitude, longitude: newCoordinate.longitude)
+        
+        var result = pointA.distanceFromLocation(pointB) // gia tri khoang cach la metre
+        
+        print(String(stringInterpolationSegment: result/1000) + "km\n")
     }
     
     // fucntion duoc goi lien tuc khi di chuyen de load vi tri moi
@@ -92,7 +101,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let region:MKCoordinateRegion = MKCoordinateRegion(center: location, span: span)
         // Roi add vao ban do
         self.myMap.setRegion(region, animated: true)
-
+        
+        locationManager.stopUpdatingLocation()
+        
     }
     
     
