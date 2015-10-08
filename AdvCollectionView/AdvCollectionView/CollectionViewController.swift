@@ -45,7 +45,7 @@ class CollectionViewController: UICollectionViewController {
         cell.myImage.image = UIImage(named: arrImage[indexPath.row])
         cell.lblName.text = arrName[indexPath.row]
         cell.lblPrice.text = String(arrPrice[indexPath.row])
-        cell.blurView.layer.cornerRadius = 10.0
+        cell.blurView.layer.cornerRadius = 25
         cell.blurView.clipsToBounds = true
         
         

@@ -23,6 +23,10 @@
 		CFA8BF141BC68702004949BC /* dog6.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA8BF0C1BC68702004949BC /* dog6.png */; };
 		CFA8BF151BC68702004949BC /* dog7.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA8BF0D1BC68702004949BC /* dog7.png */; };
 		CFA8BF161BC68702004949BC /* dog8.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA8BF0E1BC68702004949BC /* dog8.png */; };
+		CFA8BF1B1BC690C0004949BC /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8BF1A1BC690C0004949BC /* myTableViewCell.swift */; };
+		CFA8BF1F1BC6928C004949BC /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8BF1E1BC6928C004949BC /* myCollectionViewController.swift */; };
+		CFA8BF211BC692A6004949BC /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8BF201BC692A6004949BC /* myTableViewController.swift */; };
+		CFA8BF251BC693DD004949BC /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8BF241BC693DD004949BC /* myCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		CFA8BF0C1BC68702004949BC /* dog6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog6.png; sourceTree = "<group>"; };
 		CFA8BF0D1BC68702004949BC /* dog7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog7.png; sourceTree = "<group>"; };
 		CFA8BF0E1BC68702004949BC /* dog8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog8.png; sourceTree = "<group>"; };
+		CFA8BF1A1BC690C0004949BC /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		CFA8BF1E1BC6928C004949BC /* myCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
+		CFA8BF201BC692A6004949BC /* myTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		CFA8BF241BC693DD004949BC /* myCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,10 @@
 				CFA8BEE11BC68142004949BC /* Supporting Files */,
 				CFA8BF031BC6834B004949BC /* CollectionViewController.swift */,
 				CFA8BF051BC68383004949BC /* CollectionViewCell.swift */,
+				CFA8BF1A1BC690C0004949BC /* myTableViewCell.swift */,
+				CFA8BF1E1BC6928C004949BC /* myCollectionViewController.swift */,
+				CFA8BF201BC692A6004949BC /* myTableViewController.swift */,
+				CFA8BF241BC693DD004949BC /* myCollectionViewCell.swift */,
 			);
 			path = AdvCollectionView;
 			sourceTree = "<group>";
@@ -250,10 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA8BF1F1BC6928C004949BC /* myCollectionViewController.swift in Sources */,
 				CFA8BF041BC6834B004949BC /* CollectionViewController.swift in Sources */,
+				CFA8BF251BC693DD004949BC /* myCollectionViewCell.swift in Sources */,
+				CFA8BF211BC692A6004949BC /* myTableViewController.swift in Sources */,
 				CFA8BEE61BC68142004949BC /* ViewController.swift in Sources */,
 				CFA8BF061BC68383004949BC /* CollectionViewCell.swift in Sources */,
 				CFA8BEE41BC68142004949BC /* AppDelegate.swift in Sources */,
+				CFA8BF1B1BC690C0004949BC /* myTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
