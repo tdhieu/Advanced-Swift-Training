@@ -24,5 +24,19 @@ class myCollectionViewController: UIViewController, UICollectionViewDelegate, UI
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionCell", forIndexPath: indexPath) as! myCollectionViewCell
+        cell.imgView.image = UIImage(named: "dog1.png")
+        return cell
+    }
+    
     
 }
