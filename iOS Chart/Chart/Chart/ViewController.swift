@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         myBarChart.animate(xAxisDuration: 2, yAxisDuration: 2)
         myBarChart.animate(xAxisDuration: 2.0, yAxisDuration: 2.0, easingOption: ChartEasingOption.EaseInOutBounce)
         
-        let limitLine = ChartLimitLine(limit: 10.0, label: "Gioi han san pham")
+        let limitLine = ChartLimitLine(limit: 21.0, label: "Gioi han san pham")
         myBarChart.rightAxis.addLimitLine(limitLine)
     }
 

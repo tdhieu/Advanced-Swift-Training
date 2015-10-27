@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sDP-Vj-XKa" customClass="BarChartView" customModule="Charts">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sDP-Vj-XKa" customClass="BarChartView" customModule="Charts">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -24,6 +24,12 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sDP-Vj-XKa" secondAttribute="trailing" id="1fe-dr-DfO"/>
+                            <constraint firstItem="sDP-Vj-XKa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eG7-Td-0AY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sDP-Vj-XKa" secondAttribute="bottom" id="lwH-Hn-8NW"/>
+                            <constraint firstItem="sDP-Vj-XKa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yEk-5o-EQ7"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
