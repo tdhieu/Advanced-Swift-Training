@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1576D51BDF9D29002B6062 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1576D41BDF9D29002B6062 /* PieChartViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF1576D71BDFA104002B6062 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1576D61BDFA104002B6062 /* LineChartViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CF9387A11BDF900E003EA98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9387A01BDF900E003EA98F /* AppDelegate.swift */; };
 		CF9387A31BDF900E003EA98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9387A21BDF900E003EA98F /* ViewController.swift */; };
 		CF9387A61BDF900E003EA98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9387A41BDF900E003EA98F /* Main.storyboard */; };
@@ -78,6 +80,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF1576D41BDF9D29002B6062 /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartViewController.swift; path = ../PieChartViewController.swift; sourceTree = "<group>"; };
+		CF1576D61BDFA104002B6062 /* LineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChartViewController.swift; path = ../LineChartViewController.swift; sourceTree = "<group>"; };
 		CF93879D1BDF900E003EA98F /* Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9387A01BDF900E003EA98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9387A21BDF900E003EA98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 			children = (
 				CF9387CE1BDF9027003EA98F /* Charts.xcodeproj */,
 				CF9387A01BDF900E003EA98F /* AppDelegate.swift */,
+				CF1576D61BDFA104002B6062 /* LineChartViewController.swift */,
+				CF1576D41BDF9D29002B6062 /* PieChartViewController.swift */,
 				CF9387A21BDF900E003EA98F /* ViewController.swift */,
 				CF9387A41BDF900E003EA98F /* Main.storyboard */,
 				CF9387A71BDF900E003EA98F /* Assets.xcassets */,
@@ -344,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1576D51BDF9D29002B6062 /* PieChartViewController.swift in Sources */,
+				CF1576D71BDFA104002B6062 /* LineChartViewController.swift in Sources */,
 				CF9387A31BDF900E003EA98F /* ViewController.swift in Sources */,
 				CF9387A11BDF900E003EA98F /* AppDelegate.swift in Sources */,
 			);

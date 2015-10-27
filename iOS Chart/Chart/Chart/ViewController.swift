@@ -6,6 +6,10 @@
 //  Copyright © 2015 Tran Duc Hieu. All rights reserved.
 //
 
+/* Bai tap:
+
+*/
+
 import UIKit
 import Charts
 
@@ -34,6 +38,7 @@ class ViewController: UIViewController {
         
         let limitLine = ChartLimitLine(limit: 21.0, label: "Gioi han san pham")
         myBarChart.rightAxis.addLimitLine(limitLine)
+        myBarChart.descriptionText = ""
     }
 
     override func viewDidLoad() {
