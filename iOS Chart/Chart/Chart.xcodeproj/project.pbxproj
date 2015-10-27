@@ -579,6 +579,7 @@
 				CF9387C71BDF900E003EA98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9387C81BDF900E003EA98F /* Build configuration list for PBXNativeTarget "ChartTests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +588,7 @@
 				CF9387CA1BDF900E003EA98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9387CB1BDF900E003EA98F /* Build configuration list for PBXNativeTarget "ChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +597,7 @@
 				CF9387CD1BDF900E003EA98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
