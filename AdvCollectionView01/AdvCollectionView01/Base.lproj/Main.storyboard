@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdvCollectionView01" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="IKK-yc-IKG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RSZ-F4-jE3">
+                                    <size key="itemSize" width="120" height="103"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="lQf-H8-vU3" customClass="CellSP" customModule="AdvCollectionView01" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="120" height="103"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="103"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A5Q-vA-qMB">
+                                                    <rect key="frame" x="8" y="8" width="104" height="62"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" red="0.31665001486706568" green="1" blue="0.93640586772474854" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzQ-re-ccI">
+                                                    <rect key="frame" x="8" y="74" width="104" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.65951482831021235" green="1" blue="0.71518469847298871" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="CellSP_Title" destination="tzQ-re-ccI" id="lxg-Yx-nPV"/>
+                                            <outlet property="CellSP_myView" destination="A5Q-vA-qMB" id="6oF-46-yrf"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellHeader" id="kFN-9b-2dr" customClass="ReusableSP" customModule="AdvCollectionView01" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQl-gG-Dy8">
+                                            <rect key="frame" x="111" y="14" width="153" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <connections>
+                                        <outlet property="reusable_title" destination="oQl-gG-Dy8" id="EjW-ag-tQI"/>
+                                    </connections>
+                                </collectionReusableView>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IKK-yc-IKG" secondAttribute="bottom" id="4es-76-abD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IKK-yc-IKG" secondAttribute="bottom" id="7PL-sO-R0t"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AlE-B6-3gK"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HLJ-aR-6cI"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="J7H-XH-u8W"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="KRd-Hn-ZaG"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Om1-Oz-Cth"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IKK-yc-IKG" secondAttribute="bottom" id="PcL-gn-xx1"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RhF-gk-76i"/>
+                            <constraint firstItem="IKK-yc-IKG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Vkf-4Q-p3I"/>
+                            <constraint firstAttribute="trailing" secondItem="IKK-yc-IKG" secondAttribute="trailing" id="aQp-rJ-O6w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IKK-yc-IKG" secondAttribute="trailing" constant="-20" id="dTn-LV-6pd"/>
+                            <constraint firstAttribute="trailing" secondItem="IKK-yc-IKG" secondAttribute="trailing" id="pUl-hG-ad9"/>
+                            <constraint firstAttribute="trailing" secondItem="IKK-yc-IKG" secondAttribute="trailing" id="pto-Sh-BSk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myCollectionView" destination="IKK-yc-IKG" id="dWM-Nt-j18"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="287.5" y="289.5"/>
+        </scene>
+    </scenes>
+</document>

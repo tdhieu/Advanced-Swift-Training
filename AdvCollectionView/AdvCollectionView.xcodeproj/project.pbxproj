@@ -198,6 +198,7 @@
 		CFA8BED61BC68142004949BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Duy-Hieu";
 				TargetAttributes = {
@@ -467,6 +468,7 @@
 				CFA8BEFF1BC68143004949BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA8BF001BC68143004949BC /* Build configuration list for PBXNativeTarget "AdvCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +477,7 @@
 				CFA8BF021BC68143004949BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
