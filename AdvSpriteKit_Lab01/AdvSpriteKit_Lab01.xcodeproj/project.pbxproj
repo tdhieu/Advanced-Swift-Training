@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF16F48A1BF20340003BD1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F4891BF20340003BD1E4 /* AppDelegate.swift */; };
+		CF16F48C1BF20340003BD1E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF16F48B1BF20340003BD1E4 /* GameScene.sks */; };
+		CF16F48E1BF20340003BD1E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F48D1BF20340003BD1E4 /* GameScene.swift */; };
+		CF16F4901BF20340003BD1E4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F48F1BF20340003BD1E4 /* GameViewController.swift */; };
+		CF16F4931BF20340003BD1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF16F4911BF20340003BD1E4 /* Main.storyboard */; };
+		CF16F4951BF20340003BD1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF16F4941BF20340003BD1E4 /* Assets.xcassets */; };
+		CF16F4981BF20340003BD1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF16F4961BF20340003BD1E4 /* LaunchScreen.storyboard */; };
+		CF16F4A31BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F4A21BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift */; };
+		CF16F4AE1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F4AD1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF16F49F1BF20341003BD1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF16F47E1BF20340003BD1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF16F4851BF20340003BD1E4;
+			remoteInfo = AdvSpriteKit_Lab01;
+		};
+		CF16F4AA1BF20341003BD1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF16F47E1BF20340003BD1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF16F4851BF20340003BD1E4;
+			remoteInfo = AdvSpriteKit_Lab01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF16F4861BF20340003BD1E4 /* AdvSpriteKit_Lab01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvSpriteKit_Lab01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF16F4891BF20340003BD1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF16F48B1BF20340003BD1E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CF16F48D1BF20340003BD1E4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CF16F48F1BF20340003BD1E4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CF16F4921BF20340003BD1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF16F4941BF20340003BD1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF16F4971BF20340003BD1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF16F4991BF20340003BD1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF16F49E1BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_Lab01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF16F4A21BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_Lab01Tests.swift; sourceTree = "<group>"; };
+		CF16F4A41BF20341003BD1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF16F4A91BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_Lab01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF16F4AD1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_Lab01UITests.swift; sourceTree = "<group>"; };
+		CF16F4AF1BF20341003BD1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF16F4831BF20340003BD1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16F49B1BF20341003BD1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16F4A61BF20341003BD1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF16F47D1BF20340003BD1E4 = {
+			isa = PBXGroup;
+			children = (
+				CF16F4881BF20340003BD1E4 /* AdvSpriteKit_Lab01 */,
+				CF16F4A11BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests */,
+				CF16F4AC1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests */,
+				CF16F4871BF20340003BD1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF16F4871BF20340003BD1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF16F4861BF20340003BD1E4 /* AdvSpriteKit_Lab01.app */,
+				CF16F49E1BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.xctest */,
+				CF16F4A91BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF16F4881BF20340003BD1E4 /* AdvSpriteKit_Lab01 */ = {
+			isa = PBXGroup;
+			children = (
+				CF16F4891BF20340003BD1E4 /* AppDelegate.swift */,
+				CF16F48B1BF20340003BD1E4 /* GameScene.sks */,
+				CF16F48D1BF20340003BD1E4 /* GameScene.swift */,
+				CF16F48F1BF20340003BD1E4 /* GameViewController.swift */,
+				CF16F4911BF20340003BD1E4 /* Main.storyboard */,
+				CF16F4941BF20340003BD1E4 /* Assets.xcassets */,
+				CF16F4961BF20340003BD1E4 /* LaunchScreen.storyboard */,
+				CF16F4991BF20340003BD1E4 /* Info.plist */,
+			);
+			path = AdvSpriteKit_Lab01;
+			sourceTree = "<group>";
+		};
+		CF16F4A11BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF16F4A21BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift */,
+				CF16F4A41BF20341003BD1E4 /* Info.plist */,
+			);
+			path = AdvSpriteKit_Lab01Tests;
+			sourceTree = "<group>";
+		};
+		CF16F4AC1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF16F4AD1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift */,
+				CF16F4AF1BF20341003BD1E4 /* Info.plist */,
+			);
+			path = AdvSpriteKit_Lab01UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF16F4851BF20340003BD1E4 /* AdvSpriteKit_Lab01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16F4B21BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01" */;
+			buildPhases = (
+				CF16F4821BF20340003BD1E4 /* Sources */,
+				CF16F4831BF20340003BD1E4 /* Frameworks */,
+				CF16F4841BF20340003BD1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvSpriteKit_Lab01;
+			productName = AdvSpriteKit_Lab01;
+			productReference = CF16F4861BF20340003BD1E4 /* AdvSpriteKit_Lab01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF16F49D1BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16F4B51BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01Tests" */;
+			buildPhases = (
+				CF16F49A1BF20341003BD1E4 /* Sources */,
+				CF16F49B1BF20341003BD1E4 /* Frameworks */,
+				CF16F49C1BF20341003BD1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF16F4A01BF20341003BD1E4 /* PBXTargetDependency */,
+			);
+			name = AdvSpriteKit_Lab01Tests;
+			productName = AdvSpriteKit_Lab01Tests;
+			productReference = CF16F49E1BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF16F4A81BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16F4B81BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01UITests" */;
+			buildPhases = (
+				CF16F4A51BF20341003BD1E4 /* Sources */,
+				CF16F4A61BF20341003BD1E4 /* Frameworks */,
+				CF16F4A71BF20341003BD1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF16F4AB1BF20341003BD1E4 /* PBXTargetDependency */,
+			);
+			name = AdvSpriteKit_Lab01UITests;
+			productName = AdvSpriteKit_Lab01UITests;
+			productReference = CF16F4A91BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF16F47E1BF20340003BD1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tran Duc Hieu";
+				TargetAttributes = {
+					CF16F4851BF20340003BD1E4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CF16F49D1BF20341003BD1E4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF16F4851BF20340003BD1E4;
+					};
+					CF16F4A81BF20341003BD1E4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF16F4851BF20340003BD1E4;
+					};
+				};
+			};
+			buildConfigurationList = CF16F4811BF20340003BD1E4 /* Build configuration list for PBXProject "AdvSpriteKit_Lab01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF16F47D1BF20340003BD1E4;
+			productRefGroup = CF16F4871BF20340003BD1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF16F4851BF20340003BD1E4 /* AdvSpriteKit_Lab01 */,
+				CF16F49D1BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests */,
+				CF16F4A81BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF16F4841BF20340003BD1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16F48C1BF20340003BD1E4 /* GameScene.sks in Resources */,
+				CF16F4981BF20340003BD1E4 /* LaunchScreen.storyboard in Resources */,
+				CF16F4951BF20340003BD1E4 /* Assets.xcassets in Resources */,
+				CF16F4931BF20340003BD1E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16F49C1BF20341003BD1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16F4A71BF20341003BD1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF16F4821BF20340003BD1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16F48E1BF20340003BD1E4 /* GameScene.swift in Sources */,
+				CF16F4901BF20340003BD1E4 /* GameViewController.swift in Sources */,
+				CF16F48A1BF20340003BD1E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16F49A1BF20341003BD1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16F4A31BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16F4A51BF20341003BD1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16F4AE1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF16F4A01BF20341003BD1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF16F4851BF20340003BD1E4 /* AdvSpriteKit_Lab01 */;
+			targetProxy = CF16F49F1BF20341003BD1E4 /* PBXContainerItemProxy */;
+		};
+		CF16F4AB1BF20341003BD1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF16F4851BF20340003BD1E4 /* AdvSpriteKit_Lab01 */;
+			targetProxy = CF16F4AA1BF20341003BD1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF16F4911BF20340003BD1E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF16F4921BF20340003BD1E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF16F4961BF20340003BD1E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF16F4971BF20340003BD1E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF16F4B01BF20341003BD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF16F4B11BF20341003BD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF16F4B31BF20341003BD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvSpriteKit_Lab01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF16F4B41BF20341003BD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvSpriteKit_Lab01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF16F4B61BF20341003BD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdvSpriteKit_Lab01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvSpriteKit_Lab01.app/AdvSpriteKit_Lab01";
+			};
+			name = Debug;
+		};
+		CF16F4B71BF20341003BD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvSpriteKit_Lab01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvSpriteKit_Lab01.app/AdvSpriteKit_Lab01";
+			};
+			name = Release;
+		};
+		CF16F4B91BF20341003BD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdvSpriteKit_Lab01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvSpriteKit_Lab01;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF16F4BA1BF20341003BD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdvSpriteKit_Lab01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvSpriteKit_Lab01;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF16F4811BF20340003BD1E4 /* Build configuration list for PBXProject "AdvSpriteKit_Lab01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16F4B01BF20341003BD1E4 /* Debug */,
+				CF16F4B11BF20341003BD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF16F4B21BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16F4B31BF20341003BD1E4 /* Debug */,
+				CF16F4B41BF20341003BD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF16F4B51BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16F4B61BF20341003BD1E4 /* Debug */,
+				CF16F4B71BF20341003BD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF16F4B81BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF16F4B91BF20341003BD1E4 /* Debug */,
+				CF16F4BA1BF20341003BD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF16F47E1BF20340003BD1E4 /* Project object */;
+}
