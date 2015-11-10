@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0BA4491BF215F7005EC822 /* Run__000.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA43F1BF215F7005EC822 /* Run__000.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA44A1BF215F7005EC822 /* Run__001.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4401BF215F7005EC822 /* Run__001.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA44B1BF215F7005EC822 /* Run__002.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4411BF215F7005EC822 /* Run__002.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA44C1BF215F7005EC822 /* Run__003.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4421BF215F7005EC822 /* Run__003.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA44D1BF215F7005EC822 /* Run__004.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4431BF215F7005EC822 /* Run__004.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA44E1BF215F7005EC822 /* Run__005.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4441BF215F7005EC822 /* Run__005.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA44F1BF215F7005EC822 /* Run__006.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4451BF215F7005EC822 /* Run__006.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA4501BF215F7005EC822 /* Run__007.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4461BF215F7005EC822 /* Run__007.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA4511BF215F7005EC822 /* Run__008.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4471BF215F7005EC822 /* Run__008.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BA4521BF215F7005EC822 /* Run__009.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BA4481BF215F7005EC822 /* Run__009.png */; settings = {ASSET_TAGS = (); }; };
 		CF16F48A1BF20340003BD1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F4891BF20340003BD1E4 /* AppDelegate.swift */; };
 		CF16F48C1BF20340003BD1E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF16F48B1BF20340003BD1E4 /* GameScene.sks */; };
 		CF16F48E1BF20340003BD1E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F48D1BF20340003BD1E4 /* GameScene.swift */; };
@@ -16,6 +26,17 @@
 		CF16F4981BF20340003BD1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF16F4961BF20340003BD1E4 /* LaunchScreen.storyboard */; };
 		CF16F4A31BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F4A21BF20341003BD1E4 /* AdvSpriteKit_Lab01Tests.swift */; };
 		CF16F4AE1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16F4AD1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift */; };
+		CF16F4BC1BF2057F003BD1E4 /* angrybird.png in Resources */ = {isa = PBXBuildFile; fileRef = CF16F4BB1BF2057F003BD1E4 /* angrybird.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF901BF2111B007AB2CB /* Idle__000.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF5E1BF2111A007AB2CB /* Idle__000.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF911BF2111B007AB2CB /* Idle__001.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF5F1BF2111A007AB2CB /* Idle__001.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF921BF2111B007AB2CB /* Idle__002.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF601BF2111A007AB2CB /* Idle__002.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF931BF2111B007AB2CB /* Idle__003.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF611BF2111A007AB2CB /* Idle__003.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF941BF2111B007AB2CB /* Idle__004.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF621BF2111A007AB2CB /* Idle__004.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF951BF2111B007AB2CB /* Idle__005.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF631BF2111A007AB2CB /* Idle__005.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF961BF2111B007AB2CB /* Idle__006.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF641BF2111A007AB2CB /* Idle__006.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF971BF2111B007AB2CB /* Idle__007.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF651BF2111A007AB2CB /* Idle__007.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF981BF2111B007AB2CB /* Idle__008.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF661BF2111A007AB2CB /* Idle__008.png */; settings = {ASSET_TAGS = (); }; };
+		CF6CAF991BF2111B007AB2CB /* Idle__009.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6CAF671BF2111A007AB2CB /* Idle__009.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0BA43F1BF215F7005EC822 /* Run__000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__000.png; sourceTree = "<group>"; };
+		CF0BA4401BF215F7005EC822 /* Run__001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__001.png; sourceTree = "<group>"; };
+		CF0BA4411BF215F7005EC822 /* Run__002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__002.png; sourceTree = "<group>"; };
+		CF0BA4421BF215F7005EC822 /* Run__003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__003.png; sourceTree = "<group>"; };
+		CF0BA4431BF215F7005EC822 /* Run__004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__004.png; sourceTree = "<group>"; };
+		CF0BA4441BF215F7005EC822 /* Run__005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__005.png; sourceTree = "<group>"; };
+		CF0BA4451BF215F7005EC822 /* Run__006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__006.png; sourceTree = "<group>"; };
+		CF0BA4461BF215F7005EC822 /* Run__007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__007.png; sourceTree = "<group>"; };
+		CF0BA4471BF215F7005EC822 /* Run__008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__008.png; sourceTree = "<group>"; };
+		CF0BA4481BF215F7005EC822 /* Run__009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__009.png; sourceTree = "<group>"; };
 		CF16F4861BF20340003BD1E4 /* AdvSpriteKit_Lab01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvSpriteKit_Lab01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF16F4891BF20340003BD1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF16F48B1BF20340003BD1E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +82,17 @@
 		CF16F4A91BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_Lab01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF16F4AD1BF20341003BD1E4 /* AdvSpriteKit_Lab01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_Lab01UITests.swift; sourceTree = "<group>"; };
 		CF16F4AF1BF20341003BD1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF16F4BB1BF2057F003BD1E4 /* angrybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = angrybird.png; path = ../angrybird.png; sourceTree = "<group>"; };
+		CF6CAF5E1BF2111A007AB2CB /* Idle__000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__000.png; sourceTree = "<group>"; };
+		CF6CAF5F1BF2111A007AB2CB /* Idle__001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__001.png; sourceTree = "<group>"; };
+		CF6CAF601BF2111A007AB2CB /* Idle__002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__002.png; sourceTree = "<group>"; };
+		CF6CAF611BF2111A007AB2CB /* Idle__003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__003.png; sourceTree = "<group>"; };
+		CF6CAF621BF2111A007AB2CB /* Idle__004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__004.png; sourceTree = "<group>"; };
+		CF6CAF631BF2111A007AB2CB /* Idle__005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__005.png; sourceTree = "<group>"; };
+		CF6CAF641BF2111A007AB2CB /* Idle__006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__006.png; sourceTree = "<group>"; };
+		CF6CAF651BF2111A007AB2CB /* Idle__007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__007.png; sourceTree = "<group>"; };
+		CF6CAF661BF2111A007AB2CB /* Idle__008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__008.png; sourceTree = "<group>"; };
+		CF6CAF671BF2111A007AB2CB /* Idle__009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Idle__009.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +143,8 @@
 		CF16F4881BF20340003BD1E4 /* AdvSpriteKit_Lab01 */ = {
 			isa = PBXGroup;
 			children = (
+				CF6CAF531BF2111A007AB2CB /* templerun */,
+				CF16F4BB1BF2057F003BD1E4 /* angrybird.png */,
 				CF16F4891BF20340003BD1E4 /* AppDelegate.swift */,
 				CF16F48B1BF20340003BD1E4 /* GameScene.sks */,
 				CF16F48D1BF20340003BD1E4 /* GameScene.swift */,
@@ -129,6 +173,34 @@
 				CF16F4AF1BF20341003BD1E4 /* Info.plist */,
 			);
 			path = AdvSpriteKit_Lab01UITests;
+			sourceTree = "<group>";
+		};
+		CF6CAF531BF2111A007AB2CB /* templerun */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BA43F1BF215F7005EC822 /* Run__000.png */,
+				CF0BA4401BF215F7005EC822 /* Run__001.png */,
+				CF0BA4411BF215F7005EC822 /* Run__002.png */,
+				CF0BA4421BF215F7005EC822 /* Run__003.png */,
+				CF0BA4431BF215F7005EC822 /* Run__004.png */,
+				CF0BA4441BF215F7005EC822 /* Run__005.png */,
+				CF0BA4451BF215F7005EC822 /* Run__006.png */,
+				CF0BA4461BF215F7005EC822 /* Run__007.png */,
+				CF0BA4471BF215F7005EC822 /* Run__008.png */,
+				CF0BA4481BF215F7005EC822 /* Run__009.png */,
+				CF6CAF5E1BF2111A007AB2CB /* Idle__000.png */,
+				CF6CAF5F1BF2111A007AB2CB /* Idle__001.png */,
+				CF6CAF601BF2111A007AB2CB /* Idle__002.png */,
+				CF6CAF611BF2111A007AB2CB /* Idle__003.png */,
+				CF6CAF621BF2111A007AB2CB /* Idle__004.png */,
+				CF6CAF631BF2111A007AB2CB /* Idle__005.png */,
+				CF6CAF641BF2111A007AB2CB /* Idle__006.png */,
+				CF6CAF651BF2111A007AB2CB /* Idle__007.png */,
+				CF6CAF661BF2111A007AB2CB /* Idle__008.png */,
+				CF6CAF671BF2111A007AB2CB /* Idle__009.png */,
+			);
+			name = templerun;
+			path = ../templerun;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,10 +306,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6CAF961BF2111B007AB2CB /* Idle__006.png in Resources */,
+				CF6CAF971BF2111B007AB2CB /* Idle__007.png in Resources */,
+				CF0BA44F1BF215F7005EC822 /* Run__006.png in Resources */,
+				CF0BA4491BF215F7005EC822 /* Run__000.png in Resources */,
+				CF0BA44A1BF215F7005EC822 /* Run__001.png in Resources */,
+				CF6CAF921BF2111B007AB2CB /* Idle__002.png in Resources */,
+				CF6CAF931BF2111B007AB2CB /* Idle__003.png in Resources */,
+				CF0BA44B1BF215F7005EC822 /* Run__002.png in Resources */,
 				CF16F48C1BF20340003BD1E4 /* GameScene.sks in Resources */,
+				CF0BA44C1BF215F7005EC822 /* Run__003.png in Resources */,
+				CF0BA44E1BF215F7005EC822 /* Run__005.png in Resources */,
 				CF16F4981BF20340003BD1E4 /* LaunchScreen.storyboard in Resources */,
 				CF16F4951BF20340003BD1E4 /* Assets.xcassets in Resources */,
+				CF0BA4521BF215F7005EC822 /* Run__009.png in Resources */,
 				CF16F4931BF20340003BD1E4 /* Main.storyboard in Resources */,
+				CF0BA4501BF215F7005EC822 /* Run__007.png in Resources */,
+				CF6CAF981BF2111B007AB2CB /* Idle__008.png in Resources */,
+				CF6CAF911BF2111B007AB2CB /* Idle__001.png in Resources */,
+				CF6CAF941BF2111B007AB2CB /* Idle__004.png in Resources */,
+				CF0BA4511BF215F7005EC822 /* Run__008.png in Resources */,
+				CF6CAF991BF2111B007AB2CB /* Idle__009.png in Resources */,
+				CF6CAF901BF2111B007AB2CB /* Idle__000.png in Resources */,
+				CF6CAF951BF2111B007AB2CB /* Idle__005.png in Resources */,
+				CF0BA44D1BF215F7005EC822 /* Run__004.png in Resources */,
+				CF16F4BC1BF2057F003BD1E4 /* angrybird.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +586,7 @@
 				CF16F4B41BF20341003BD1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF16F4B51BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01Tests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +595,7 @@
 				CF16F4B71BF20341003BD1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF16F4B81BF20341003BD1E4 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab01UITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +604,7 @@
 				CF16F4BA1BF20341003BD1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
