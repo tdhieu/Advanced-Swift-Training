@@ -16,6 +16,7 @@
 		CF0EF20D1BF74D2E0034F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0EF20B1BF74D2E0034F8C1 /* LaunchScreen.storyboard */; };
 		CF0EF2181BF74D2E0034F8C1 /* SpriteKit_lab03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EF2171BF74D2E0034F8C1 /* SpriteKit_lab03Tests.swift */; };
 		CF0EF2231BF74D2F0034F8C1 /* SpriteKit_lab03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EF2221BF74D2F0034F8C1 /* SpriteKit_lab03UITests.swift */; };
+		CF0EF2311BF754E70034F8C1 /* angrybird.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0EF2301BF754E70034F8C1 /* angrybird.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CF0EF21E1BF74D2F0034F8C1 /* SpriteKit_lab03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_lab03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0EF2221BF74D2F0034F8C1 /* SpriteKit_lab03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_lab03UITests.swift; sourceTree = "<group>"; };
 		CF0EF2241BF74D2F0034F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0EF2301BF754E70034F8C1 /* angrybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angrybird.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CF0EF1F21BF74D2E0034F8C1 = {
 			isa = PBXGroup;
 			children = (
+				CF0EF2301BF754E70034F8C1 /* angrybird.png */,
 				CF0EF1FD1BF74D2E0034F8C1 /* SpriteKit_lab03 */,
 				CF0EF2161BF74D2E0034F8C1 /* SpriteKit_lab03Tests */,
 				CF0EF2211BF74D2F0034F8C1 /* SpriteKit_lab03UITests */,
@@ -238,6 +241,7 @@
 				CF0EF20D1BF74D2E0034F8C1 /* LaunchScreen.storyboard in Resources */,
 				CF0EF20A1BF74D2E0034F8C1 /* Assets.xcassets in Resources */,
 				CF0EF2081BF74D2E0034F8C1 /* Main.storyboard in Resources */,
+				CF0EF2311BF754E70034F8C1 /* angrybird.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
