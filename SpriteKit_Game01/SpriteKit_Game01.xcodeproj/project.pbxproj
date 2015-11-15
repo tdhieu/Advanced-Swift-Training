@@ -16,6 +16,7 @@
 		CF0EF24D1BF75DF50034F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0EF24B1BF75DF50034F8C1 /* LaunchScreen.storyboard */; };
 		CF0EF2581BF75DF50034F8C1 /* SpriteKit_Game01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EF2571BF75DF50034F8C1 /* SpriteKit_Game01Tests.swift */; };
 		CF0EF2631BF75DF50034F8C1 /* SpriteKit_Game01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EF2621BF75DF50034F8C1 /* SpriteKit_Game01UITests.swift */; };
+		CF42D2501BF80FB900C2F2F3 /* gunship.png in Resources */ = {isa = PBXBuildFile; fileRef = CF42D24F1BF80FB900C2F2F3 /* gunship.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CF0EF25E1BF75DF50034F8C1 /* SpriteKit_Game01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_Game01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0EF2621BF75DF50034F8C1 /* SpriteKit_Game01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_Game01UITests.swift; sourceTree = "<group>"; };
 		CF0EF2641BF75DF50034F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF42D24F1BF80FB900C2F2F3 /* gunship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gunship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CF0EF2321BF75DF40034F8C1 = {
 			isa = PBXGroup;
 			children = (
+				CF42D24E1BF80FAC00C2F2F3 /* Images */,
 				CF0EF23D1BF75DF50034F8C1 /* SpriteKit_Game01 */,
 				CF0EF2561BF75DF50034F8C1 /* SpriteKit_Game01Tests */,
 				CF0EF2611BF75DF50034F8C1 /* SpriteKit_Game01UITests */,
@@ -129,6 +132,14 @@
 				CF0EF2641BF75DF50034F8C1 /* Info.plist */,
 			);
 			path = SpriteKit_Game01UITests;
+			sourceTree = "<group>";
+		};
+		CF42D24E1BF80FAC00C2F2F3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF42D24F1BF80FB900C2F2F3 /* gunship.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 			files = (
 				CF0EF2411BF75DF50034F8C1 /* GameScene.sks in Resources */,
 				CF0EF24D1BF75DF50034F8C1 /* LaunchScreen.storyboard in Resources */,
+				CF42D2501BF80FB900C2F2F3 /* gunship.png in Resources */,
 				CF0EF24A1BF75DF50034F8C1 /* Assets.xcassets in Resources */,
 				CF0EF2481BF75DF50034F8C1 /* Main.storyboard in Resources */,
 			);
@@ -493,6 +505,7 @@
 				CF0EF2691BF75DF50034F8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF0EF26A1BF75DF50034F8C1 /* Build configuration list for PBXNativeTarget "SpriteKit_Game01Tests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +514,7 @@
 				CF0EF26C1BF75DF50034F8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF0EF26D1BF75DF50034F8C1 /* Build configuration list for PBXNativeTarget "SpriteKit_Game01UITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +523,7 @@
 				CF0EF26F1BF75DF50034F8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

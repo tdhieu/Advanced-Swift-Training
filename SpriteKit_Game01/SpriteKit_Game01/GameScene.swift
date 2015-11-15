@@ -8,8 +8,13 @@
 
 import SpriteKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
+    // ------------------ Khai bao bien -------------------//
+    var node1: SKSpriteNode = SKSpriteNode
+    
+    
+    // ------------------ Xu ly phuong thuc -----------------//
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
