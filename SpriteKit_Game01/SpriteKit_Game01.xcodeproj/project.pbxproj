@@ -16,7 +16,15 @@
 		CF0EF24D1BF75DF50034F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0EF24B1BF75DF50034F8C1 /* LaunchScreen.storyboard */; };
 		CF0EF2581BF75DF50034F8C1 /* SpriteKit_Game01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EF2571BF75DF50034F8C1 /* SpriteKit_Game01Tests.swift */; };
 		CF0EF2631BF75DF50034F8C1 /* SpriteKit_Game01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EF2621BF75DF50034F8C1 /* SpriteKit_Game01UITests.swift */; };
-		CF42D2501BF80FB900C2F2F3 /* gunship.png in Resources */ = {isa = PBXBuildFile; fileRef = CF42D24F1BF80FB900C2F2F3 /* gunship.png */; settings = {ASSET_TAGS = (); }; };
+		CF4C955A1BFB1EFB00EDAF6C /* monster1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4C95591BFB1EFB00EDAF6C /* monster1.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF21BF8219300B2FE4F /* angrybird.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AE91BF8219300B2FE4F /* angrybird.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF31BF8219300B2FE4F /* gunship.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AEA1BF8219300B2FE4F /* gunship.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF51BF8219300B2FE4F /* monster2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AEC1BF8219300B2FE4F /* monster2.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF61BF8219300B2FE4F /* monster3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AED1BF8219300B2FE4F /* monster3.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF71BF8219300B2FE4F /* monster4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AEE1BF8219300B2FE4F /* monster4.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF81BF8219300B2FE4F /* monster5.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AEF1BF8219300B2FE4F /* monster5.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AF91BF8219300B2FE4F /* monster6.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AF01BF8219300B2FE4F /* monster6.png */; settings = {ASSET_TAGS = (); }; };
+		CF898AFA1BF8219300B2FE4F /* monster7.png in Resources */ = {isa = PBXBuildFile; fileRef = CF898AF11BF8219300B2FE4F /* monster7.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,15 @@
 		CF0EF25E1BF75DF50034F8C1 /* SpriteKit_Game01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_Game01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0EF2621BF75DF50034F8C1 /* SpriteKit_Game01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_Game01UITests.swift; sourceTree = "<group>"; };
 		CF0EF2641BF75DF50034F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF42D24F1BF80FB900C2F2F3 /* gunship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gunship.png; sourceTree = "<group>"; };
+		CF4C95591BFB1EFB00EDAF6C /* monster1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster1.png; sourceTree = "<group>"; };
+		CF898AE91BF8219300B2FE4F /* angrybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angrybird.png; sourceTree = "<group>"; };
+		CF898AEA1BF8219300B2FE4F /* gunship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gunship.png; sourceTree = "<group>"; };
+		CF898AEC1BF8219300B2FE4F /* monster2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster2.png; sourceTree = "<group>"; };
+		CF898AED1BF8219300B2FE4F /* monster3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster3.png; sourceTree = "<group>"; };
+		CF898AEE1BF8219300B2FE4F /* monster4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster4.png; sourceTree = "<group>"; };
+		CF898AEF1BF8219300B2FE4F /* monster5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster5.png; sourceTree = "<group>"; };
+		CF898AF01BF8219300B2FE4F /* monster6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster6.png; sourceTree = "<group>"; };
+		CF898AF11BF8219300B2FE4F /* monster7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +99,7 @@
 		CF0EF2321BF75DF40034F8C1 = {
 			isa = PBXGroup;
 			children = (
-				CF42D24E1BF80FAC00C2F2F3 /* Images */,
+				CF898AE81BF8219300B2FE4F /* ImageFolder */,
 				CF0EF23D1BF75DF50034F8C1 /* SpriteKit_Game01 */,
 				CF0EF2561BF75DF50034F8C1 /* SpriteKit_Game01Tests */,
 				CF0EF2611BF75DF50034F8C1 /* SpriteKit_Game01UITests */,
@@ -134,12 +150,20 @@
 			path = SpriteKit_Game01UITests;
 			sourceTree = "<group>";
 		};
-		CF42D24E1BF80FAC00C2F2F3 /* Images */ = {
+		CF898AE81BF8219300B2FE4F /* ImageFolder */ = {
 			isa = PBXGroup;
 			children = (
-				CF42D24F1BF80FB900C2F2F3 /* gunship.png */,
+				CF898AE91BF8219300B2FE4F /* angrybird.png */,
+				CF898AEA1BF8219300B2FE4F /* gunship.png */,
+				CF4C95591BFB1EFB00EDAF6C /* monster1.png */,
+				CF898AEC1BF8219300B2FE4F /* monster2.png */,
+				CF898AED1BF8219300B2FE4F /* monster3.png */,
+				CF898AEE1BF8219300B2FE4F /* monster4.png */,
+				CF898AEF1BF8219300B2FE4F /* monster5.png */,
+				CF898AF01BF8219300B2FE4F /* monster6.png */,
+				CF898AF11BF8219300B2FE4F /* monster7.png */,
 			);
-			name = Images;
+			path = ImageFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,11 +269,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF898AF91BF8219300B2FE4F /* monster6.png in Resources */,
+				CF898AFA1BF8219300B2FE4F /* monster7.png in Resources */,
+				CF898AF51BF8219300B2FE4F /* monster2.png in Resources */,
+				CF898AF31BF8219300B2FE4F /* gunship.png in Resources */,
 				CF0EF2411BF75DF50034F8C1 /* GameScene.sks in Resources */,
 				CF0EF24D1BF75DF50034F8C1 /* LaunchScreen.storyboard in Resources */,
-				CF42D2501BF80FB900C2F2F3 /* gunship.png in Resources */,
+				CF898AF81BF8219300B2FE4F /* monster5.png in Resources */,
 				CF0EF24A1BF75DF50034F8C1 /* Assets.xcassets in Resources */,
 				CF0EF2481BF75DF50034F8C1 /* Main.storyboard in Resources */,
+				CF4C955A1BFB1EFB00EDAF6C /* monster1.png in Resources */,
+				CF898AF71BF8219300B2FE4F /* monster4.png in Resources */,
+				CF898AF61BF8219300B2FE4F /* monster3.png in Resources */,
+				CF898AF21BF8219300B2FE4F /* angrybird.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
