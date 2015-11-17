@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF46E4B01BFB3E300012134A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46E4AF1BFB3E300012134A /* AppDelegate.swift */; };
+		CF46E4B21BFB3E300012134A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF46E4B11BFB3E300012134A /* GameScene.sks */; };
+		CF46E4B41BFB3E300012134A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46E4B31BFB3E300012134A /* GameScene.swift */; };
+		CF46E4B61BFB3E300012134A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46E4B51BFB3E300012134A /* GameViewController.swift */; };
+		CF46E4B91BFB3E300012134A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF46E4B71BFB3E300012134A /* Main.storyboard */; };
+		CF46E4BB1BFB3E300012134A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF46E4BA1BFB3E300012134A /* Assets.xcassets */; };
+		CF46E4BE1BFB3E300012134A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF46E4BC1BFB3E300012134A /* LaunchScreen.storyboard */; };
+		CF46E4C91BFB3E300012134A /* AdvSpriteKit_Lab03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46E4C81BFB3E300012134A /* AdvSpriteKit_Lab03Tests.swift */; };
+		CF46E4D41BFB3E310012134A /* AdvSpriteKit_Lab03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46E4D31BFB3E310012134A /* AdvSpriteKit_Lab03UITests.swift */; };
+		CF46E4E21BFB3F150012134A /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46E4E11BFB3F150012134A /* Random.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF46E4C51BFB3E300012134A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF46E4A41BFB3E300012134A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF46E4AB1BFB3E300012134A;
+			remoteInfo = AdvSpriteKit_Lab03;
+		};
+		CF46E4D01BFB3E310012134A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF46E4A41BFB3E300012134A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF46E4AB1BFB3E300012134A;
+			remoteInfo = AdvSpriteKit_Lab03;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF46E4AC1BFB3E300012134A /* AdvSpriteKit_Lab03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvSpriteKit_Lab03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF46E4AF1BFB3E300012134A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF46E4B11BFB3E300012134A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CF46E4B31BFB3E300012134A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CF46E4B51BFB3E300012134A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CF46E4B81BFB3E300012134A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF46E4BA1BFB3E300012134A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF46E4BD1BFB3E300012134A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF46E4BF1BFB3E300012134A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF46E4C41BFB3E300012134A /* AdvSpriteKit_Lab03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_Lab03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF46E4C81BFB3E300012134A /* AdvSpriteKit_Lab03Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_Lab03Tests.swift; sourceTree = "<group>"; };
+		CF46E4CA1BFB3E300012134A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF46E4CF1BFB3E310012134A /* AdvSpriteKit_Lab03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_Lab03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF46E4D31BFB3E310012134A /* AdvSpriteKit_Lab03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_Lab03UITests.swift; sourceTree = "<group>"; };
+		CF46E4D51BFB3E310012134A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF46E4E11BFB3F150012134A /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF46E4A91BFB3E300012134A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF46E4C11BFB3E300012134A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF46E4CC1BFB3E310012134A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF46E4A31BFB3E300012134A = {
+			isa = PBXGroup;
+			children = (
+				CF46E4AE1BFB3E300012134A /* AdvSpriteKit_Lab03 */,
+				CF46E4C71BFB3E300012134A /* AdvSpriteKit_Lab03Tests */,
+				CF46E4D21BFB3E310012134A /* AdvSpriteKit_Lab03UITests */,
+				CF46E4AD1BFB3E300012134A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF46E4AD1BFB3E300012134A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF46E4AC1BFB3E300012134A /* AdvSpriteKit_Lab03.app */,
+				CF46E4C41BFB3E300012134A /* AdvSpriteKit_Lab03Tests.xctest */,
+				CF46E4CF1BFB3E310012134A /* AdvSpriteKit_Lab03UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF46E4AE1BFB3E300012134A /* AdvSpriteKit_Lab03 */ = {
+			isa = PBXGroup;
+			children = (
+				CF46E4AF1BFB3E300012134A /* AppDelegate.swift */,
+				CF46E4B11BFB3E300012134A /* GameScene.sks */,
+				CF46E4B31BFB3E300012134A /* GameScene.swift */,
+				CF46E4B51BFB3E300012134A /* GameViewController.swift */,
+				CF46E4B71BFB3E300012134A /* Main.storyboard */,
+				CF46E4BA1BFB3E300012134A /* Assets.xcassets */,
+				CF46E4BC1BFB3E300012134A /* LaunchScreen.storyboard */,
+				CF46E4BF1BFB3E300012134A /* Info.plist */,
+				CF46E4E11BFB3F150012134A /* Random.swift */,
+			);
+			path = AdvSpriteKit_Lab03;
+			sourceTree = "<group>";
+		};
+		CF46E4C71BFB3E300012134A /* AdvSpriteKit_Lab03Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF46E4C81BFB3E300012134A /* AdvSpriteKit_Lab03Tests.swift */,
+				CF46E4CA1BFB3E300012134A /* Info.plist */,
+			);
+			path = AdvSpriteKit_Lab03Tests;
+			sourceTree = "<group>";
+		};
+		CF46E4D21BFB3E310012134A /* AdvSpriteKit_Lab03UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF46E4D31BFB3E310012134A /* AdvSpriteKit_Lab03UITests.swift */,
+				CF46E4D51BFB3E310012134A /* Info.plist */,
+			);
+			path = AdvSpriteKit_Lab03UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF46E4AB1BFB3E300012134A /* AdvSpriteKit_Lab03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF46E4D81BFB3E310012134A /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab03" */;
+			buildPhases = (
+				CF46E4A81BFB3E300012134A /* Sources */,
+				CF46E4A91BFB3E300012134A /* Frameworks */,
+				CF46E4AA1BFB3E300012134A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvSpriteKit_Lab03;
+			productName = AdvSpriteKit_Lab03;
+			productReference = CF46E4AC1BFB3E300012134A /* AdvSpriteKit_Lab03.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF46E4C31BFB3E300012134A /* AdvSpriteKit_Lab03Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF46E4DB1BFB3E310012134A /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab03Tests" */;
+			buildPhases = (
+				CF46E4C01BFB3E300012134A /* Sources */,
+				CF46E4C11BFB3E300012134A /* Frameworks */,
+				CF46E4C21BFB3E300012134A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF46E4C61BFB3E300012134A /* PBXTargetDependency */,
+			);
+			name = AdvSpriteKit_Lab03Tests;
+			productName = AdvSpriteKit_Lab03Tests;
+			productReference = CF46E4C41BFB3E300012134A /* AdvSpriteKit_Lab03Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF46E4CE1BFB3E310012134A /* AdvSpriteKit_Lab03UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF46E4DE1BFB3E310012134A /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab03UITests" */;
+			buildPhases = (
+				CF46E4CB1BFB3E310012134A /* Sources */,
+				CF46E4CC1BFB3E310012134A /* Frameworks */,
+				CF46E4CD1BFB3E310012134A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF46E4D11BFB3E310012134A /* PBXTargetDependency */,
+			);
+			name = AdvSpriteKit_Lab03UITests;
+			productName = AdvSpriteKit_Lab03UITests;
+			productReference = CF46E4CF1BFB3E310012134A /* AdvSpriteKit_Lab03UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF46E4A41BFB3E300012134A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tran Duc Hieu";
+				TargetAttributes = {
+					CF46E4AB1BFB3E300012134A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CF46E4C31BFB3E300012134A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF46E4AB1BFB3E300012134A;
+					};
+					CF46E4CE1BFB3E310012134A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF46E4AB1BFB3E300012134A;
+					};
+				};
+			};
+			buildConfigurationList = CF46E4A71BFB3E300012134A /* Build configuration list for PBXProject "AdvSpriteKit_Lab03" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF46E4A31BFB3E300012134A;
+			productRefGroup = CF46E4AD1BFB3E300012134A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF46E4AB1BFB3E300012134A /* AdvSpriteKit_Lab03 */,
+				CF46E4C31BFB3E300012134A /* AdvSpriteKit_Lab03Tests */,
+				CF46E4CE1BFB3E310012134A /* AdvSpriteKit_Lab03UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF46E4AA1BFB3E300012134A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF46E4B21BFB3E300012134A /* GameScene.sks in Resources */,
+				CF46E4BE1BFB3E300012134A /* LaunchScreen.storyboard in Resources */,
+				CF46E4BB1BFB3E300012134A /* Assets.xcassets in Resources */,
+				CF46E4B91BFB3E300012134A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF46E4C21BFB3E300012134A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF46E4CD1BFB3E310012134A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF46E4A81BFB3E300012134A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF46E4B41BFB3E300012134A /* GameScene.swift in Sources */,
+				CF46E4B61BFB3E300012134A /* GameViewController.swift in Sources */,
+				CF46E4B01BFB3E300012134A /* AppDelegate.swift in Sources */,
+				CF46E4E21BFB3F150012134A /* Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF46E4C01BFB3E300012134A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF46E4C91BFB3E300012134A /* AdvSpriteKit_Lab03Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF46E4CB1BFB3E310012134A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF46E4D41BFB3E310012134A /* AdvSpriteKit_Lab03UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF46E4C61BFB3E300012134A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF46E4AB1BFB3E300012134A /* AdvSpriteKit_Lab03 */;
+			targetProxy = CF46E4C51BFB3E300012134A /* PBXContainerItemProxy */;
+		};
+		CF46E4D11BFB3E310012134A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF46E4AB1BFB3E300012134A /* AdvSpriteKit_Lab03 */;
+			targetProxy = CF46E4D01BFB3E310012134A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF46E4B71BFB3E300012134A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF46E4B81BFB3E300012134A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF46E4BC1BFB3E300012134A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF46E4BD1BFB3E300012134A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF46E4D61BFB3E310012134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF46E4D71BFB3E310012134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF46E4D91BFB3E310012134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvSpriteKit_Lab03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab03";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF46E4DA1BFB3E310012134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvSpriteKit_Lab03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab03";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF46E4DC1BFB3E310012134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdvSpriteKit_Lab03Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab03Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvSpriteKit_Lab03.app/AdvSpriteKit_Lab03";
+			};
+			name = Debug;
+		};
+		CF46E4DD1BFB3E310012134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvSpriteKit_Lab03Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab03Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvSpriteKit_Lab03.app/AdvSpriteKit_Lab03";
+			};
+			name = Release;
+		};
+		CF46E4DF1BFB3E310012134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdvSpriteKit_Lab03UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab03UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvSpriteKit_Lab03;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF46E4E01BFB3E310012134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdvSpriteKit_Lab03UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-Lab03UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvSpriteKit_Lab03;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF46E4A71BFB3E300012134A /* Build configuration list for PBXProject "AdvSpriteKit_Lab03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF46E4D61BFB3E310012134A /* Debug */,
+				CF46E4D71BFB3E310012134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF46E4D81BFB3E310012134A /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF46E4D91BFB3E310012134A /* Debug */,
+				CF46E4DA1BFB3E310012134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF46E4DB1BFB3E310012134A /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab03Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF46E4DC1BFB3E310012134A /* Debug */,
+				CF46E4DD1BFB3E310012134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF46E4DE1BFB3E310012134A /* Build configuration list for PBXNativeTarget "AdvSpriteKit_Lab03UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF46E4DF1BFB3E310012134A /* Debug */,
+				CF46E4E01BFB3E310012134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF46E4A41BFB3E300012134A /* Project object */;
+}
