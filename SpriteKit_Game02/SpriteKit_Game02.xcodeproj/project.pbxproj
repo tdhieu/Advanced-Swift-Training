@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0BF77A1BFCD52100334319 /* BlueTail__000.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BF7751BFCD52100334319 /* BlueTail__000.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BF77B1BFCD52100334319 /* BlueTail__001.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BF7761BFCD52100334319 /* BlueTail__001.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BF77C1BFCD52100334319 /* BlueTail__002.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BF7771BFCD52100334319 /* BlueTail__002.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BF77D1BFCD52100334319 /* BlueTail__003.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BF7781BFCD52100334319 /* BlueTail__003.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BF77E1BFCD52100334319 /* BlueTail__004.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0BF7791BFCD52100334319 /* BlueTail__004.png */; settings = {ASSET_TAGS = (); }; };
+		CF0BF7821BFCD82700334319 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BF7811BFCD82700334319 /* Random.swift */; settings = {ASSET_TAGS = (); }; };
 		CFE0301C1BFC802800FEDA3A /* tank.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE0301B1BFC802800FEDA3A /* tank.png */; settings = {ASSET_TAGS = (); }; };
 		CFE4985C1BFC7D610048F8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4985B1BFC7D610048F8DD /* AppDelegate.swift */; };
 		CFE4985E1BFC7D610048F8DD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFE4985D1BFC7D610048F8DD /* GameScene.sks */; };
@@ -44,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0BF7751BFCD52100334319 /* BlueTail__000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTail__000.png; sourceTree = "<group>"; };
+		CF0BF7761BFCD52100334319 /* BlueTail__001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTail__001.png; sourceTree = "<group>"; };
+		CF0BF7771BFCD52100334319 /* BlueTail__002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTail__002.png; sourceTree = "<group>"; };
+		CF0BF7781BFCD52100334319 /* BlueTail__003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTail__003.png; sourceTree = "<group>"; };
+		CF0BF7791BFCD52100334319 /* BlueTail__004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTail__004.png; sourceTree = "<group>"; };
+		CF0BF7811BFCD82700334319 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		CFE0301B1BFC802800FEDA3A /* tank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tank.png; sourceTree = "<group>"; };
 		CFE498581BFC7D610048F8DD /* SpriteKit_Game02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKit_Game02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4985B1BFC7D610048F8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0BF7741BFCD50700334319 /* Bullets */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BF7751BFCD52100334319 /* BlueTail__000.png */,
+				CF0BF7761BFCD52100334319 /* BlueTail__001.png */,
+				CF0BF7771BFCD52100334319 /* BlueTail__002.png */,
+				CF0BF7781BFCD52100334319 /* BlueTail__003.png */,
+				CF0BF7791BFCD52100334319 /* BlueTail__004.png */,
+			);
+			name = Bullets;
+			sourceTree = "<group>";
+		};
 		CFE4984F1BFC7D610048F8DD = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +150,7 @@
 				CFE498661BFC7D610048F8DD /* Assets.xcassets */,
 				CFE498681BFC7D610048F8DD /* LaunchScreen.storyboard */,
 				CFE4986B1BFC7D610048F8DD /* Info.plist */,
+				CF0BF7811BFCD82700334319 /* Random.swift */,
 			);
 			path = SpriteKit_Game02;
 			sourceTree = "<group>";
@@ -151,6 +176,7 @@
 		CFE4988D1BFC7F170048F8DD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CF0BF7741BFCD50700334319 /* Bullets */,
 				CFE0301B1BFC802800FEDA3A /* tank.png */,
 				CFE4988E1BFC7F410048F8DD /* monster1.png */,
 				CFE4988F1BFC7F410048F8DD /* monster2.png */,
@@ -271,11 +297,16 @@
 				CFE4986A1BFC7D610048F8DD /* LaunchScreen.storyboard in Resources */,
 				CFE498981BFC7F410048F8DD /* monster4.png in Resources */,
 				CFE498951BFC7F410048F8DD /* monster1.png in Resources */,
+				CF0BF77E1BFCD52100334319 /* BlueTail__004.png in Resources */,
+				CF0BF77A1BFCD52100334319 /* BlueTail__000.png in Resources */,
 				CFE0301C1BFC802800FEDA3A /* tank.png in Resources */,
+				CF0BF77D1BFCD52100334319 /* BlueTail__003.png in Resources */,
+				CF0BF77C1BFCD52100334319 /* BlueTail__002.png in Resources */,
 				CFE498671BFC7D610048F8DD /* Assets.xcassets in Resources */,
 				CFE4989B1BFC7F410048F8DD /* monster7.png in Resources */,
 				CFE498651BFC7D610048F8DD /* Main.storyboard in Resources */,
 				CFE4989A1BFC7F410048F8DD /* monster6.png in Resources */,
+				CF0BF77B1BFCD52100334319 /* BlueTail__001.png in Resources */,
 				CFE498991BFC7F410048F8DD /* monster5.png in Resources */,
 				CFE498971BFC7F410048F8DD /* monster3.png in Resources */,
 			);
@@ -302,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0BF7821BFCD82700334319 /* Random.swift in Sources */,
 				CFE498601BFC7D610048F8DD /* GameScene.swift in Sources */,
 				CFE498621BFC7D610048F8DD /* GameViewController.swift in Sources */,
 				CFE4985C1BFC7D610048F8DD /* AppDelegate.swift in Sources */,
