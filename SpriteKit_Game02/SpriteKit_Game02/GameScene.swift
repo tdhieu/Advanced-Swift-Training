@@ -28,6 +28,17 @@ class GameScene: SKScene {
         self.addChild(nodeTank)
     }
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches {
+            let location = touch.locationInNode(self)
+            let deltaY = location.y - nodeTank.position.y
+            let deltaX = location.x - nodeTank.position.x
+            print(deltaY/deltaX)
+            let angle = atan(deltaY/deltaX) + CGFloat(90 * M_PI / 180)
+            let actionRotate:SKAction = SKAction.rotateToAngle(angle, duration: 0.1, shortestUnitArc: true)
+            nodeTank.runAction(actionRotate)
+        }
+    }
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
