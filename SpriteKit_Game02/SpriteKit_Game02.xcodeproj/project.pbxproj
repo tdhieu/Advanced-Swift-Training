@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFE0301C1BFC802800FEDA3A /* tank.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE0301B1BFC802800FEDA3A /* tank.png */; settings = {ASSET_TAGS = (); }; };
 		CFE4985C1BFC7D610048F8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4985B1BFC7D610048F8DD /* AppDelegate.swift */; };
 		CFE4985E1BFC7D610048F8DD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFE4985D1BFC7D610048F8DD /* GameScene.sks */; };
 		CFE498601BFC7D610048F8DD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4985F1BFC7D610048F8DD /* GameScene.swift */; };
@@ -16,6 +17,13 @@
 		CFE4986A1BFC7D610048F8DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE498681BFC7D610048F8DD /* LaunchScreen.storyboard */; };
 		CFE498751BFC7D610048F8DD /* SpriteKit_Game02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE498741BFC7D610048F8DD /* SpriteKit_Game02Tests.swift */; };
 		CFE498801BFC7D610048F8DD /* SpriteKit_Game02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4987F1BFC7D610048F8DD /* SpriteKit_Game02UITests.swift */; };
+		CFE498951BFC7F410048F8DD /* monster1.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE4988E1BFC7F410048F8DD /* monster1.png */; settings = {ASSET_TAGS = (); }; };
+		CFE498961BFC7F410048F8DD /* monster2.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE4988F1BFC7F410048F8DD /* monster2.png */; settings = {ASSET_TAGS = (); }; };
+		CFE498971BFC7F410048F8DD /* monster3.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE498901BFC7F410048F8DD /* monster3.png */; settings = {ASSET_TAGS = (); }; };
+		CFE498981BFC7F410048F8DD /* monster4.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE498911BFC7F410048F8DD /* monster4.png */; settings = {ASSET_TAGS = (); }; };
+		CFE498991BFC7F410048F8DD /* monster5.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE498921BFC7F410048F8DD /* monster5.png */; settings = {ASSET_TAGS = (); }; };
+		CFE4989A1BFC7F410048F8DD /* monster6.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE498931BFC7F410048F8DD /* monster6.png */; settings = {ASSET_TAGS = (); }; };
+		CFE4989B1BFC7F410048F8DD /* monster7.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE498941BFC7F410048F8DD /* monster7.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFE0301B1BFC802800FEDA3A /* tank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tank.png; sourceTree = "<group>"; };
 		CFE498581BFC7D610048F8DD /* SpriteKit_Game02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKit_Game02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4985B1BFC7D610048F8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE4985D1BFC7D610048F8DD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		CFE4987B1BFC7D610048F8DD /* SpriteKit_Game02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_Game02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4987F1BFC7D610048F8DD /* SpriteKit_Game02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_Game02UITests.swift; sourceTree = "<group>"; };
 		CFE498811BFC7D610048F8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE4988E1BFC7F410048F8DD /* monster1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster1.png; sourceTree = "<group>"; };
+		CFE4988F1BFC7F410048F8DD /* monster2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster2.png; sourceTree = "<group>"; };
+		CFE498901BFC7F410048F8DD /* monster3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster3.png; sourceTree = "<group>"; };
+		CFE498911BFC7F410048F8DD /* monster4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster4.png; sourceTree = "<group>"; };
+		CFE498921BFC7F410048F8DD /* monster5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster5.png; sourceTree = "<group>"; };
+		CFE498931BFC7F410048F8DD /* monster6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster6.png; sourceTree = "<group>"; };
+		CFE498941BFC7F410048F8DD /* monster7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		CFE4985A1BFC7D610048F8DD /* SpriteKit_Game02 */ = {
 			isa = PBXGroup;
 			children = (
+				CFE4988D1BFC7F170048F8DD /* Images */,
 				CFE4985B1BFC7D610048F8DD /* AppDelegate.swift */,
 				CFE4985D1BFC7D610048F8DD /* GameScene.sks */,
 				CFE4985F1BFC7D610048F8DD /* GameScene.swift */,
@@ -129,6 +146,21 @@
 				CFE498811BFC7D610048F8DD /* Info.plist */,
 			);
 			path = SpriteKit_Game02UITests;
+			sourceTree = "<group>";
+		};
+		CFE4988D1BFC7F170048F8DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFE0301B1BFC802800FEDA3A /* tank.png */,
+				CFE4988E1BFC7F410048F8DD /* monster1.png */,
+				CFE4988F1BFC7F410048F8DD /* monster2.png */,
+				CFE498901BFC7F410048F8DD /* monster3.png */,
+				CFE498911BFC7F410048F8DD /* monster4.png */,
+				CFE498921BFC7F410048F8DD /* monster5.png */,
+				CFE498931BFC7F410048F8DD /* monster6.png */,
+				CFE498941BFC7F410048F8DD /* monster7.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +267,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE4985E1BFC7D610048F8DD /* GameScene.sks in Resources */,
+				CFE498961BFC7F410048F8DD /* monster2.png in Resources */,
 				CFE4986A1BFC7D610048F8DD /* LaunchScreen.storyboard in Resources */,
+				CFE498981BFC7F410048F8DD /* monster4.png in Resources */,
+				CFE498951BFC7F410048F8DD /* monster1.png in Resources */,
+				CFE0301C1BFC802800FEDA3A /* tank.png in Resources */,
 				CFE498671BFC7D610048F8DD /* Assets.xcassets in Resources */,
+				CFE4989B1BFC7F410048F8DD /* monster7.png in Resources */,
 				CFE498651BFC7D610048F8DD /* Main.storyboard in Resources */,
+				CFE4989A1BFC7F410048F8DD /* monster6.png in Resources */,
+				CFE498991BFC7F410048F8DD /* monster5.png in Resources */,
+				CFE498971BFC7F410048F8DD /* monster3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +533,7 @@
 				CFE498861BFC7D610048F8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE498871BFC7D610048F8DD /* Build configuration list for PBXNativeTarget "SpriteKit_Game02Tests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +542,7 @@
 				CFE498891BFC7D610048F8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE4988A1BFC7D610048F8DD /* Build configuration list for PBXNativeTarget "SpriteKit_Game02UITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +551,7 @@
 				CFE4988C1BFC7D610048F8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
