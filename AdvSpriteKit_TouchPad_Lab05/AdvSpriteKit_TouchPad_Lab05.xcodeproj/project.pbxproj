@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCB83DA1C008F700033CFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB83D91C008F700033CFA3 /* AppDelegate.swift */; };
+		CFCB83DC1C008F700033CFA3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFCB83DB1C008F700033CFA3 /* GameScene.sks */; };
+		CFCB83DE1C008F700033CFA3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB83DD1C008F700033CFA3 /* GameScene.swift */; };
+		CFCB83E01C008F700033CFA3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB83DF1C008F700033CFA3 /* GameViewController.swift */; };
+		CFCB83E31C008F700033CFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCB83E11C008F700033CFA3 /* Main.storyboard */; };
+		CFCB83E51C008F700033CFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCB83E41C008F700033CFA3 /* Assets.xcassets */; };
+		CFCB83E81C008F700033CFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCB83E61C008F700033CFA3 /* LaunchScreen.storyboard */; };
+		CFCB83F31C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB83F21C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.swift */; };
+		CFCB83FE1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB83FD1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.swift */; };
+		CFCB840E1C008FB00033CFA3 /* inner.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCB840B1C008FB00033CFA3 /* inner.png */; settings = {ASSET_TAGS = (); }; };
+		CFCB840F1C008FB00033CFA3 /* outer.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCB840C1C008FB00033CFA3 /* outer.png */; settings = {ASSET_TAGS = (); }; };
+		CFCB84101C008FB00033CFA3 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCB840D1C008FB00033CFA3 /* plane.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCB83EF1C008F710033CFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCB83CE1C008F700033CFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCB83D51C008F700033CFA3;
+			remoteInfo = AdvSpriteKit_TouchPad_Lab05;
+		};
+		CFCB83FA1C008F710033CFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCB83CE1C008F700033CFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCB83D51C008F700033CFA3;
+			remoteInfo = AdvSpriteKit_TouchPad_Lab05;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCB83D61C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvSpriteKit_TouchPad_Lab05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCB83D91C008F700033CFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFCB83DB1C008F700033CFA3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CFCB83DD1C008F700033CFA3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CFCB83DF1C008F700033CFA3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CFCB83E21C008F700033CFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCB83E41C008F700033CFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCB83E71C008F700033CFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCB83E91C008F700033CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCB83EE1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_TouchPad_Lab05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCB83F21C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_TouchPad_Lab05Tests.swift; sourceTree = "<group>"; };
+		CFCB83F41C008F710033CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCB83F91C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvSpriteKit_TouchPad_Lab05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCB83FD1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvSpriteKit_TouchPad_Lab05UITests.swift; sourceTree = "<group>"; };
+		CFCB83FF1C008F710033CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCB840B1C008FB00033CFA3 /* inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inner.png; sourceTree = "<group>"; };
+		CFCB840C1C008FB00033CFA3 /* outer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outer.png; sourceTree = "<group>"; };
+		CFCB840D1C008FB00033CFA3 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCB83D31C008F700033CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCB83EB1C008F710033CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCB83F61C008F710033CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCB83CD1C008F700033CFA3 = {
+			isa = PBXGroup;
+			children = (
+				CFCB83D81C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05 */,
+				CFCB83F11C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests */,
+				CFCB83FC1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests */,
+				CFCB83D71C008F700033CFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCB83D71C008F700033CFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB83D61C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05.app */,
+				CFCB83EE1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.xctest */,
+				CFCB83F91C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCB83D81C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05 */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB840B1C008FB00033CFA3 /* inner.png */,
+				CFCB840C1C008FB00033CFA3 /* outer.png */,
+				CFCB840D1C008FB00033CFA3 /* plane.png */,
+				CFCB83D91C008F700033CFA3 /* AppDelegate.swift */,
+				CFCB83DB1C008F700033CFA3 /* GameScene.sks */,
+				CFCB83DD1C008F700033CFA3 /* GameScene.swift */,
+				CFCB83DF1C008F700033CFA3 /* GameViewController.swift */,
+				CFCB83E11C008F700033CFA3 /* Main.storyboard */,
+				CFCB83E41C008F700033CFA3 /* Assets.xcassets */,
+				CFCB83E61C008F700033CFA3 /* LaunchScreen.storyboard */,
+				CFCB83E91C008F700033CFA3 /* Info.plist */,
+			);
+			path = AdvSpriteKit_TouchPad_Lab05;
+			sourceTree = "<group>";
+		};
+		CFCB83F11C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB83F21C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.swift */,
+				CFCB83F41C008F710033CFA3 /* Info.plist */,
+			);
+			path = AdvSpriteKit_TouchPad_Lab05Tests;
+			sourceTree = "<group>";
+		};
+		CFCB83FC1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB83FD1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.swift */,
+				CFCB83FF1C008F710033CFA3 /* Info.plist */,
+			);
+			path = AdvSpriteKit_TouchPad_Lab05UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCB83D51C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCB84021C008F710033CFA3 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_TouchPad_Lab05" */;
+			buildPhases = (
+				CFCB83D21C008F700033CFA3 /* Sources */,
+				CFCB83D31C008F700033CFA3 /* Frameworks */,
+				CFCB83D41C008F700033CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvSpriteKit_TouchPad_Lab05;
+			productName = AdvSpriteKit_TouchPad_Lab05;
+			productReference = CFCB83D61C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCB83ED1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCB84051C008F710033CFA3 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_TouchPad_Lab05Tests" */;
+			buildPhases = (
+				CFCB83EA1C008F710033CFA3 /* Sources */,
+				CFCB83EB1C008F710033CFA3 /* Frameworks */,
+				CFCB83EC1C008F710033CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCB83F01C008F710033CFA3 /* PBXTargetDependency */,
+			);
+			name = AdvSpriteKit_TouchPad_Lab05Tests;
+			productName = AdvSpriteKit_TouchPad_Lab05Tests;
+			productReference = CFCB83EE1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFCB83F81C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCB84081C008F710033CFA3 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_TouchPad_Lab05UITests" */;
+			buildPhases = (
+				CFCB83F51C008F710033CFA3 /* Sources */,
+				CFCB83F61C008F710033CFA3 /* Frameworks */,
+				CFCB83F71C008F710033CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCB83FB1C008F710033CFA3 /* PBXTargetDependency */,
+			);
+			name = AdvSpriteKit_TouchPad_Lab05UITests;
+			productName = AdvSpriteKit_TouchPad_Lab05UITests;
+			productReference = CFCB83F91C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCB83CE1C008F700033CFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tran Duc Hieu";
+				TargetAttributes = {
+					CFCB83D51C008F700033CFA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CFCB83ED1C008F710033CFA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CFCB83D51C008F700033CFA3;
+					};
+					CFCB83F81C008F710033CFA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CFCB83D51C008F700033CFA3;
+					};
+				};
+			};
+			buildConfigurationList = CFCB83D11C008F700033CFA3 /* Build configuration list for PBXProject "AdvSpriteKit_TouchPad_Lab05" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCB83CD1C008F700033CFA3;
+			productRefGroup = CFCB83D71C008F700033CFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCB83D51C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05 */,
+				CFCB83ED1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests */,
+				CFCB83F81C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCB83D41C008F700033CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCB83DC1C008F700033CFA3 /* GameScene.sks in Resources */,
+				CFCB840F1C008FB00033CFA3 /* outer.png in Resources */,
+				CFCB83E81C008F700033CFA3 /* LaunchScreen.storyboard in Resources */,
+				CFCB83E51C008F700033CFA3 /* Assets.xcassets in Resources */,
+				CFCB840E1C008FB00033CFA3 /* inner.png in Resources */,
+				CFCB84101C008FB00033CFA3 /* plane.png in Resources */,
+				CFCB83E31C008F700033CFA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCB83EC1C008F710033CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCB83F71C008F710033CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCB83D21C008F700033CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCB83DE1C008F700033CFA3 /* GameScene.swift in Sources */,
+				CFCB83E01C008F700033CFA3 /* GameViewController.swift in Sources */,
+				CFCB83DA1C008F700033CFA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCB83EA1C008F710033CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCB83F31C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCB83F51C008F710033CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCB83FE1C008F710033CFA3 /* AdvSpriteKit_TouchPad_Lab05UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCB83F01C008F710033CFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCB83D51C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05 */;
+			targetProxy = CFCB83EF1C008F710033CFA3 /* PBXContainerItemProxy */;
+		};
+		CFCB83FB1C008F710033CFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCB83D51C008F700033CFA3 /* AdvSpriteKit_TouchPad_Lab05 */;
+			targetProxy = CFCB83FA1C008F710033CFA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCB83E11C008F700033CFA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCB83E21C008F700033CFA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCB83E61C008F700033CFA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCB83E71C008F700033CFA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCB84001C008F710033CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCB84011C008F710033CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCB84031C008F710033CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvSpriteKit_TouchPad_Lab05/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-TouchPad-Lab05";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFCB84041C008F710033CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvSpriteKit_TouchPad_Lab05/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-TouchPad-Lab05";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFCB84061C008F710033CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdvSpriteKit_TouchPad_Lab05Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-TouchPad-Lab05Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvSpriteKit_TouchPad_Lab05.app/AdvSpriteKit_TouchPad_Lab05";
+			};
+			name = Debug;
+		};
+		CFCB84071C008F710033CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvSpriteKit_TouchPad_Lab05Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-TouchPad-Lab05Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvSpriteKit_TouchPad_Lab05.app/AdvSpriteKit_TouchPad_Lab05";
+			};
+			name = Release;
+		};
+		CFCB84091C008F710033CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdvSpriteKit_TouchPad_Lab05UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-TouchPad-Lab05UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvSpriteKit_TouchPad_Lab05;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFCB840A1C008F710033CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdvSpriteKit_TouchPad_Lab05UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartAppEDU.AdvSpriteKit-TouchPad-Lab05UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvSpriteKit_TouchPad_Lab05;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCB83D11C008F700033CFA3 /* Build configuration list for PBXProject "AdvSpriteKit_TouchPad_Lab05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCB84001C008F710033CFA3 /* Debug */,
+				CFCB84011C008F710033CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCB84021C008F710033CFA3 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_TouchPad_Lab05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCB84031C008F710033CFA3 /* Debug */,
+				CFCB84041C008F710033CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFCB84051C008F710033CFA3 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_TouchPad_Lab05Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCB84061C008F710033CFA3 /* Debug */,
+				CFCB84071C008F710033CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFCB84081C008F710033CFA3 /* Build configuration list for PBXNativeTarget "AdvSpriteKit_TouchPad_Lab05UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCB84091C008F710033CFA3 /* Debug */,
+				CFCB840A1C008F710033CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCB83CE1C008F700033CFA3 /* Project object */;
+}
