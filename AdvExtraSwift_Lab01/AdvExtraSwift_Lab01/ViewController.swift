@@ -17,10 +17,28 @@ class ViewController: UIViewController {
         var a = 122
         var b = 555
         
-        print(doiViTri(a, number2: b))
+        print(doiViTri(&a, number2: &b))
+        
+        var arr:[String] = ["AAA", "BBB", "CCC"]
+        
+        print(themPhanTu(&arr))
     }
 
-    func doiViTri(var number1: Int, var number2: Int) -> [Int]{
+    func doiViTri(inout number1: Int, inout number2: Int) -> [Int]{
+        let t = number1
+        number1 = number2
+        number2 = t
+        
+        return [number1, number2]
+    }
+    
+    func themPhanTu(inout arr:[String]) -> [String] {
+        arr.append("DDD")
+        return arr
+    }
+
+    // Cach dung kieu du lieu Generic
+    func doiViTri<T>(inout number1: T, inout number2: T) -> [T]{
         let t = number1
         number1 = number2
         number2 = t
@@ -28,6 +46,6 @@ class ViewController: UIViewController {
         return [number1, number2]
     }
 
-
+    
 }
 
