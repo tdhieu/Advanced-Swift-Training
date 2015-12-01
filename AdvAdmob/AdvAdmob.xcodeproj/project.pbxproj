@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF50B6271C0DC01500B2AC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B6261C0DC01500B2AC1A /* AppDelegate.swift */; };
+		CF50B6291C0DC01500B2AC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B6281C0DC01500B2AC1A /* ViewController.swift */; };
+		CF50B62C1C0DC01500B2AC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF50B62A1C0DC01500B2AC1A /* Main.storyboard */; };
+		CF50B62E1C0DC01500B2AC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF50B62D1C0DC01500B2AC1A /* Assets.xcassets */; };
+		CF50B6311C0DC01500B2AC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF50B62F1C0DC01500B2AC1A /* LaunchScreen.storyboard */; };
+		CF50B63C1C0DC01500B2AC1A /* AdvAdmobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B63B1C0DC01500B2AC1A /* AdvAdmobTests.swift */; };
+		CF50B6471C0DC01500B2AC1A /* AdvAdmobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B6461C0DC01500B2AC1A /* AdvAdmobUITests.swift */; };
+		CF50B6551C0DC1ED00B2AC1A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6541C0DC1ED00B2AC1A /* GoogleMobileAds.framework */; settings = {ASSET_TAGS = (); }; };
+		CF50B6571C0DC27B00B2AC1A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6561C0DC27B00B2AC1A /* AdSupport.framework */; };
+		CF50B6591C0DC28200B2AC1A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6581C0DC28200B2AC1A /* AudioToolbox.framework */; };
+		CF50B65B1C0DC28B00B2AC1A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B65A1C0DC28B00B2AC1A /* AVFoundation.framework */; };
+		CF50B65D1C0DC29200B2AC1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B65C1C0DC29200B2AC1A /* CoreGraphics.framework */; };
+		CF50B65F1C0DC29D00B2AC1A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B65E1C0DC29D00B2AC1A /* CoreTelephony.framework */; };
+		CF50B6621C0DC2AD00B2AC1A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6601C0DC2AD00B2AC1A /* EventKit.framework */; };
+		CF50B6631C0DC2AD00B2AC1A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6611C0DC2AD00B2AC1A /* EventKitUI.framework */; };
+		CF50B6651C0DC2D500B2AC1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6641C0DC2D500B2AC1A /* SystemConfiguration.framework */; };
+		CF50B6671C0DC2F300B2AC1A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6661C0DC2F300B2AC1A /* MessageUI.framework */; };
+		CF50B6691C0DC2FC00B2AC1A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF50B6681C0DC2FC00B2AC1A /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF50B6381C0DC01500B2AC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF50B61B1C0DC01500B2AC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50B6221C0DC01500B2AC1A;
+			remoteInfo = AdvAdmob;
+		};
+		CF50B6431C0DC01500B2AC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF50B61B1C0DC01500B2AC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50B6221C0DC01500B2AC1A;
+			remoteInfo = AdvAdmob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF50B6231C0DC01500B2AC1A /* AdvAdmob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvAdmob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50B6261C0DC01500B2AC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF50B6281C0DC01500B2AC1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF50B62B1C0DC01500B2AC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF50B62D1C0DC01500B2AC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF50B6301C0DC01500B2AC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF50B6321C0DC01500B2AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF50B6371C0DC01500B2AC1A /* AdvAdmobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvAdmobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50B63B1C0DC01500B2AC1A /* AdvAdmobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvAdmobTests.swift; sourceTree = "<group>"; };
+		CF50B63D1C0DC01500B2AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF50B6421C0DC01500B2AC1A /* AdvAdmobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvAdmobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50B6461C0DC01500B2AC1A /* AdvAdmobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvAdmobUITests.swift; sourceTree = "<group>"; };
+		CF50B6481C0DC01500B2AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF50B6541C0DC1ED00B2AC1A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		CF50B6561C0DC27B00B2AC1A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CF50B6581C0DC28200B2AC1A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF50B65A1C0DC28B00B2AC1A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF50B65C1C0DC29200B2AC1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF50B65E1C0DC29D00B2AC1A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CF50B6601C0DC2AD00B2AC1A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CF50B6611C0DC2AD00B2AC1A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		CF50B6641C0DC2D500B2AC1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF50B6661C0DC2F300B2AC1A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CF50B6681C0DC2FC00B2AC1A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF50B6201C0DC01500B2AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B6691C0DC2FC00B2AC1A /* StoreKit.framework in Frameworks */,
+				CF50B6671C0DC2F300B2AC1A /* MessageUI.framework in Frameworks */,
+				CF50B6651C0DC2D500B2AC1A /* SystemConfiguration.framework in Frameworks */,
+				CF50B6621C0DC2AD00B2AC1A /* EventKit.framework in Frameworks */,
+				CF50B6631C0DC2AD00B2AC1A /* EventKitUI.framework in Frameworks */,
+				CF50B65F1C0DC29D00B2AC1A /* CoreTelephony.framework in Frameworks */,
+				CF50B65D1C0DC29200B2AC1A /* CoreGraphics.framework in Frameworks */,
+				CF50B65B1C0DC28B00B2AC1A /* AVFoundation.framework in Frameworks */,
+				CF50B6591C0DC28200B2AC1A /* AudioToolbox.framework in Frameworks */,
+				CF50B6571C0DC27B00B2AC1A /* AdSupport.framework in Frameworks */,
+				CF50B6551C0DC1ED00B2AC1A /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B6341C0DC01500B2AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B63F1C0DC01500B2AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF50B61A1C0DC01500B2AC1A = {
+			isa = PBXGroup;
+			children = (
+				CF50B6681C0DC2FC00B2AC1A /* StoreKit.framework */,
+				CF50B6661C0DC2F300B2AC1A /* MessageUI.framework */,
+				CF50B6641C0DC2D500B2AC1A /* SystemConfiguration.framework */,
+				CF50B6601C0DC2AD00B2AC1A /* EventKit.framework */,
+				CF50B6611C0DC2AD00B2AC1A /* EventKitUI.framework */,
+				CF50B65E1C0DC29D00B2AC1A /* CoreTelephony.framework */,
+				CF50B65C1C0DC29200B2AC1A /* CoreGraphics.framework */,
+				CF50B65A1C0DC28B00B2AC1A /* AVFoundation.framework */,
+				CF50B6581C0DC28200B2AC1A /* AudioToolbox.framework */,
+				CF50B6561C0DC27B00B2AC1A /* AdSupport.framework */,
+				CF50B6541C0DC1ED00B2AC1A /* GoogleMobileAds.framework */,
+				CF50B6251C0DC01500B2AC1A /* AdvAdmob */,
+				CF50B63A1C0DC01500B2AC1A /* AdvAdmobTests */,
+				CF50B6451C0DC01500B2AC1A /* AdvAdmobUITests */,
+				CF50B6241C0DC01500B2AC1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF50B6241C0DC01500B2AC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B6231C0DC01500B2AC1A /* AdvAdmob.app */,
+				CF50B6371C0DC01500B2AC1A /* AdvAdmobTests.xctest */,
+				CF50B6421C0DC01500B2AC1A /* AdvAdmobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF50B6251C0DC01500B2AC1A /* AdvAdmob */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B6261C0DC01500B2AC1A /* AppDelegate.swift */,
+				CF50B6281C0DC01500B2AC1A /* ViewController.swift */,
+				CF50B62A1C0DC01500B2AC1A /* Main.storyboard */,
+				CF50B62D1C0DC01500B2AC1A /* Assets.xcassets */,
+				CF50B62F1C0DC01500B2AC1A /* LaunchScreen.storyboard */,
+				CF50B6321C0DC01500B2AC1A /* Info.plist */,
+			);
+			path = AdvAdmob;
+			sourceTree = "<group>";
+		};
+		CF50B63A1C0DC01500B2AC1A /* AdvAdmobTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B63B1C0DC01500B2AC1A /* AdvAdmobTests.swift */,
+				CF50B63D1C0DC01500B2AC1A /* Info.plist */,
+			);
+			path = AdvAdmobTests;
+			sourceTree = "<group>";
+		};
+		CF50B6451C0DC01500B2AC1A /* AdvAdmobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B6461C0DC01500B2AC1A /* AdvAdmobUITests.swift */,
+				CF50B6481C0DC01500B2AC1A /* Info.plist */,
+			);
+			path = AdvAdmobUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF50B6221C0DC01500B2AC1A /* AdvAdmob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50B64B1C0DC01500B2AC1A /* Build configuration list for PBXNativeTarget "AdvAdmob" */;
+			buildPhases = (
+				CF50B61F1C0DC01500B2AC1A /* Sources */,
+				CF50B6201C0DC01500B2AC1A /* Frameworks */,
+				CF50B6211C0DC01500B2AC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvAdmob;
+			productName = AdvAdmob;
+			productReference = CF50B6231C0DC01500B2AC1A /* AdvAdmob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF50B6361C0DC01500B2AC1A /* AdvAdmobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50B64E1C0DC01500B2AC1A /* Build configuration list for PBXNativeTarget "AdvAdmobTests" */;
+			buildPhases = (
+				CF50B6331C0DC01500B2AC1A /* Sources */,
+				CF50B6341C0DC01500B2AC1A /* Frameworks */,
+				CF50B6351C0DC01500B2AC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50B6391C0DC01500B2AC1A /* PBXTargetDependency */,
+			);
+			name = AdvAdmobTests;
+			productName = AdvAdmobTests;
+			productReference = CF50B6371C0DC01500B2AC1A /* AdvAdmobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF50B6411C0DC01500B2AC1A /* AdvAdmobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50B6511C0DC01500B2AC1A /* Build configuration list for PBXNativeTarget "AdvAdmobUITests" */;
+			buildPhases = (
+				CF50B63E1C0DC01500B2AC1A /* Sources */,
+				CF50B63F1C0DC01500B2AC1A /* Frameworks */,
+				CF50B6401C0DC01500B2AC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50B6441C0DC01500B2AC1A /* PBXTargetDependency */,
+			);
+			name = AdvAdmobUITests;
+			productName = AdvAdmobUITests;
+			productReference = CF50B6421C0DC01500B2AC1A /* AdvAdmobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF50B61B1C0DC01500B2AC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tran Duc Hieu";
+				TargetAttributes = {
+					CF50B6221C0DC01500B2AC1A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CF50B6361C0DC01500B2AC1A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF50B6221C0DC01500B2AC1A;
+					};
+					CF50B6411C0DC01500B2AC1A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF50B6221C0DC01500B2AC1A;
+					};
+				};
+			};
+			buildConfigurationList = CF50B61E1C0DC01500B2AC1A /* Build configuration list for PBXProject "AdvAdmob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF50B61A1C0DC01500B2AC1A;
+			productRefGroup = CF50B6241C0DC01500B2AC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF50B6221C0DC01500B2AC1A /* AdvAdmob */,
+				CF50B6361C0DC01500B2AC1A /* AdvAdmobTests */,
+				CF50B6411C0DC01500B2AC1A /* AdvAdmobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF50B6211C0DC01500B2AC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B6311C0DC01500B2AC1A /* LaunchScreen.storyboard in Resources */,
+				CF50B62E1C0DC01500B2AC1A /* Assets.xcassets in Resources */,
+				CF50B62C1C0DC01500B2AC1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B6351C0DC01500B2AC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B6401C0DC01500B2AC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF50B61F1C0DC01500B2AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B6291C0DC01500B2AC1A /* ViewController.swift in Sources */,
+				CF50B6271C0DC01500B2AC1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B6331C0DC01500B2AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B63C1C0DC01500B2AC1A /* AdvAdmobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B63E1C0DC01500B2AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B6471C0DC01500B2AC1A /* AdvAdmobUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF50B6391C0DC01500B2AC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50B6221C0DC01500B2AC1A /* AdvAdmob */;
+			targetProxy = CF50B6381C0DC01500B2AC1A /* PBXContainerItemProxy */;
+		};
+		CF50B6441C0DC01500B2AC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50B6221C0DC01500B2AC1A /* AdvAdmob */;
+			targetProxy = CF50B6431C0DC01500B2AC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF50B62A1C0DC01500B2AC1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF50B62B1C0DC01500B2AC1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF50B62F1C0DC01500B2AC1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF50B6301C0DC01500B2AC1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF50B6491C0DC01500B2AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF50B64A1C0DC01500B2AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF50B64C1C0DC01500B2AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AdvAdmob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.AdvAdmob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF50B64D1C0DC01500B2AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AdvAdmob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.AdvAdmob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF50B64F1C0DC01500B2AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvAdmobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.AdvAdmobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvAdmob.app/AdvAdmob";
+			};
+			name = Debug;
+		};
+		CF50B6501C0DC01500B2AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvAdmobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.AdvAdmobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvAdmob.app/AdvAdmob";
+			};
+			name = Release;
+		};
+		CF50B6521C0DC01500B2AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdvAdmobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.AdvAdmobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvAdmob;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF50B6531C0DC01500B2AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdvAdmobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.AdvAdmobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdvAdmob;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF50B61E1C0DC01500B2AC1A /* Build configuration list for PBXProject "AdvAdmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B6491C0DC01500B2AC1A /* Debug */,
+				CF50B64A1C0DC01500B2AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF50B64B1C0DC01500B2AC1A /* Build configuration list for PBXNativeTarget "AdvAdmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B64C1C0DC01500B2AC1A /* Debug */,
+				CF50B64D1C0DC01500B2AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF50B64E1C0DC01500B2AC1A /* Build configuration list for PBXNativeTarget "AdvAdmobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B64F1C0DC01500B2AC1A /* Debug */,
+				CF50B6501C0DC01500B2AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF50B6511C0DC01500B2AC1A /* Build configuration list for PBXNativeTarget "AdvAdmobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B6521C0DC01500B2AC1A /* Debug */,
+				CF50B6531C0DC01500B2AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF50B61B1C0DC01500B2AC1A /* Project object */;
+}
