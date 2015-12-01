@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF8BFBBB1C0DB7E600E78471"
+               BlueprintIdentifier = "CF8BFBF51C0DB8D900E78471"
                BuildableName = "Adv_iAd_Lab01.app"
                BlueprintName = "Adv_iAd_Lab01"
                ReferencedContainer = "container:Adv_iAd_Lab01.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF8BFBCF1C0DB7E600E78471"
+               BlueprintIdentifier = "CF8BFC091C0DB8D900E78471"
                BuildableName = "Adv_iAd_Lab01Tests.xctest"
                BlueprintName = "Adv_iAd_Lab01Tests"
                ReferencedContainer = "container:Adv_iAd_Lab01.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF8BFBDA1C0DB7E600E78471"
+               BlueprintIdentifier = "CF8BFC141C0DB8D900E78471"
                BuildableName = "Adv_iAd_Lab01UITests.xctest"
                BlueprintName = "Adv_iAd_Lab01UITests"
                ReferencedContainer = "container:Adv_iAd_Lab01.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF8BFBBB1C0DB7E600E78471"
+            BlueprintIdentifier = "CF8BFBF51C0DB8D900E78471"
             BuildableName = "Adv_iAd_Lab01.app"
             BlueprintName = "Adv_iAd_Lab01"
             ReferencedContainer = "container:Adv_iAd_Lab01.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF8BFBBB1C0DB7E600E78471"
+            BlueprintIdentifier = "CF8BFBF51C0DB8D900E78471"
             BuildableName = "Adv_iAd_Lab01.app"
             BlueprintName = "Adv_iAd_Lab01"
             ReferencedContainer = "container:Adv_iAd_Lab01.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF8BFBBB1C0DB7E600E78471"
+            BlueprintIdentifier = "CF8BFBF51C0DB8D900E78471"
             BuildableName = "Adv_iAd_Lab01.app"
             BlueprintName = "Adv_iAd_Lab01"
             ReferencedContainer = "container:Adv_iAd_Lab01.xcodeproj">

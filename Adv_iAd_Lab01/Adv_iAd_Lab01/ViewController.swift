@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import iAd
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myiAd: ADBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
