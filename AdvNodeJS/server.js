@@ -10,4 +10,15 @@ var io = require("socket.io").listen(server);
 server.listen(process.env.PORT || 7123);
 
 console.log("-----------------");
-console.log("server da bat dau");
+console.log("Server da bat dau");
+
+//--------- Kiem tra co nguoi ket noi den server --------------//
+io.on("connection",function(client){
+	console.log("Co nguoi vua ket noi");
+	client.emit("DangNhap", {dulieu: "Chao mung ban da quay lai"});
+	client.on("Click", function(data){
+		console.log("Client:")		
+		console.log(data);
+		client.emit("GuiTinNhan", {tinnhan: data});
+	});
+});
