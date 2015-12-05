@@ -567,6 +567,7 @@
 				CF5D97C31C105F5000AE9991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF5D97C41C105F5000AE9991 /* Build configuration list for PBXNativeTarget "DemoNodeTests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +576,7 @@
 				CF5D97C61C105F5000AE9991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF5D97C71C105F5000AE9991 /* Build configuration list for PBXNativeTarget "DemoNodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +585,7 @@
 				CF5D97C91C105F5000AE9991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

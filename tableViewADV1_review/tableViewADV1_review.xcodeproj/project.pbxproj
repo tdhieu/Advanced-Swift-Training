@@ -177,6 +177,7 @@
 		CFFCF5551BB6ADDC002FEFE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Duy-Hieu";
 				TargetAttributes = {
@@ -439,6 +440,7 @@
 				CFFCF57E1BB6ADDC002FEFE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFFCF57F1BB6ADDC002FEFE6 /* Build configuration list for PBXNativeTarget "tableViewADV1_reviewTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +449,7 @@
 				CFFCF5811BB6ADDC002FEFE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
