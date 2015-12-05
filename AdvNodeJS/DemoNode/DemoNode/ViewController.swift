@@ -36,12 +36,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.arrMessage.append(text)
             self.tbView.reloadData()
         }
+        
+        socket.on("Message") { data, ack in
+            //            print(data[0]["tinnhan"]!!)
+            
+            let text:String = data[0]["data"]!! as! String
+            self.arrMessage.append(text)
+            self.tbView.reloadData()
+        }
+        
         tbView.reloadData()
     }
 
     @IBAction func btnClick(sender: AnyObject) {
         let message = txtMessage.text
-        socket.emit("Click", message!)
+        socket.emit("Message", message!)
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
