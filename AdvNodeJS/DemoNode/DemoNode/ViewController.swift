@@ -57,7 +57,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = arrMessage[indexPath.row]
         return cell
     }
-        
+    
+    @IBAction func btnJoin(sender: AnyObject) {
+        socket.emit("Create", "Phong1")
+    }
     
 }
 

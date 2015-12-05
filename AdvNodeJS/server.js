@@ -21,4 +21,15 @@ io.on("connection",function(client){
 		console.log(data);
 		client.emit("GuiTinNhan", {tinnhan: data});
 	});
+
+	client.on("Create", function(room){
+		console.log("Da tham gia vao room");
+		client.join(room);
+	});
+
+	client.on("Message", function(message){
+		console.log(message);
+		client.broadcast.to("Phong1").emit("Message", {data: message});
+	});
 });
+
