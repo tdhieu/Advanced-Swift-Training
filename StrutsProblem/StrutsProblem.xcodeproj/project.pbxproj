@@ -14,6 +14,7 @@
 		CF2753861C1D725200E025F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2753841C1D725200E025F6 /* LaunchScreen.storyboard */; };
 		CF2753911C1D725200E025F6 /* StrutsProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2753901C1D725200E025F6 /* StrutsProblemTests.swift */; };
 		CF27539C1C1D725300E025F6 /* StrutsProblemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF27539B1C1D725300E025F6 /* StrutsProblemUITests.swift */; };
+		CF2C82A01C1DB47B007726FB /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C829F1C1DB47B007726FB /* AutoLayoutViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CF2753971C1D725300E025F6 /* StrutsProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrutsProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF27539B1C1D725300E025F6 /* StrutsProblemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrutsProblemUITests.swift; sourceTree = "<group>"; };
 		CF27539D1C1D725300E025F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2C829F1C1DB47B007726FB /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CF27537B1C1D725200E025F6 /* AppDelegate.swift */,
 				CF27537D1C1D725200E025F6 /* ViewController.swift */,
+				CF2C829F1C1DB47B007726FB /* AutoLayoutViewController.swift */,
 				CF27537F1C1D725200E025F6 /* Main.storyboard */,
 				CF2753821C1D725200E025F6 /* Assets.xcassets */,
 				CF2753841C1D725200E025F6 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				CF27537E1C1D725200E025F6 /* ViewController.swift in Sources */,
 				CF27537C1C1D725200E025F6 /* AppDelegate.swift in Sources */,
+				CF2C82A01C1DB47B007726FB /* AutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +487,7 @@
 				CF2753A21C1D725300E025F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2753A31C1D725300E025F6 /* Build configuration list for PBXNativeTarget "StrutsProblemTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				CF2753A51C1D725300E025F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2753A61C1D725300E025F6 /* Build configuration list for PBXNativeTarget "StrutsProblemUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				CF2753A81C1D725300E025F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
