@@ -9,7 +9,7 @@ io.on("Connection", function(client){
 	client.on("Move", function(vitri) {
 		console.log(vitri);
 		// client.broadcast.emit("vitri", {vitri:vitri});
-		client.emit("vitri", )
+		client.emit("vitri", {vitri:vitri});
 	});
 });
 

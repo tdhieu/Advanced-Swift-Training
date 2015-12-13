@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myImage: UIImageView!
     
-    var player:Int = 1
+    var player:CGFloat = 1
+    var arrPlayers:[CGFloat] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,11 @@ class ViewController: UIViewController {
         myImage.userInteractionEnabled = true
         
         socket.on("Vitri") { toado, ack in
-            print(toado)
+//            print(toado)
+            var toado = toado[0]["vitri"]!! as! [CGFloat]
+            if toado[2] != arrPlayers {
+                print(toado)
+            }
         }
     }
 

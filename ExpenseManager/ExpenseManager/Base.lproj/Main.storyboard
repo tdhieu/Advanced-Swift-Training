@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Main View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainView" customModule="ExpenseManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_002.png" translatesAutoresizingMaskIntoConstraints="NO" id="rE2-ul-w8f">
+                                <rect key="frame" x="0.0" y="30" width="375" height="67"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NHẬT KÝ THU CHI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-hB-hOP">
+                                <rect key="frame" x="0.0" y="30" width="375" height="67"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.75911177982085065" blue="0.28353013565264429" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.83464956889999997" green="1" blue="0.48557099850000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-3I-om1">
+                                <rect key="frame" x="2" y="604" width="124" height="29"/>
+                                <animations/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="Thêm" image="btnAdd1.png" backgroundImage="RBG02.png">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.72082956669999998" green="0.87623561449999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrZ-jJ-cbE">
+                                <rect key="frame" x="2" y="638" width="124" height="29"/>
+                                <animations/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title=" Lọc số liệu" image="btnFilter.png" backgroundImage="RBG02.png">
+                                    <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.72082956669999998" green="0.87623561449999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eED-UL-zgC">
+                                <rect key="frame" x="142" y="604" width="126" height="29"/>
+                                <animations/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title=" Sửa" image="btnModify.png" backgroundImage="RBG02.png">
+                                    <color key="titleColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.72082956669999998" green="0.87623561449999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43f-TP-kJQ">
+                                <rect key="frame" x="279" y="604" width="94" height="29"/>
+                                <animations/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="  Xóa " image="btnDelete.png" backgroundImage="RBG02.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.72082956669999998" green="0.87623561449999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMA-al-Flk">
+                                <rect key="frame" x="142" y="638" width="126" height="29"/>
+                                <animations/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title=" In báo cáo" image="btnPrint.png" backgroundImage="RBG02.png">
+                                    <color key="titleColor" red="1" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.72082956669999998" green="0.87623561449999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPb-AX-gS8">
+                                <rect key="frame" x="279" y="638" width="94" height="29"/>
+                                <animations/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title=" Thoát" image="btnExitME.png" backgroundImage="RBG02.png">
+                                    <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.72082956669999998" green="0.87623561449999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG_XanhNhat02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vXO-Jm-yhe">
+                                <rect key="frame" x="126" y="603" width="13" height="64"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG_XanhNhat02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fF3-N5-PV7">
+                                <rect key="frame" x="268" y="603" width="13" height="64"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line01.GIF" translatesAutoresizingMaskIntoConstraints="NO" id="fEs-AH-hgI">
+                                <rect key="frame" x="0.0" y="566" width="375" height="19"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xx/xxxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17H-e3-fFQ">
+                                <rect key="frame" x="251" y="55" width="110" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.3166500149" green="1" blue="0.93640586770000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5tw-hB-hOP" secondAttribute="trailing" id="28W-eU-acq"/>
+                            <constraint firstItem="5tw-hB-hOP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Ff-Ap-bNH"/>
+                            <constraint firstItem="rE2-ul-w8f" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/10" id="3xh-FQ-xW4"/>
+                            <constraint firstItem="rE2-ul-w8f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BBW-61-M83"/>
+                            <constraint firstItem="rE2-ul-w8f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HX2-km-ifi"/>
+                            <constraint firstItem="5tw-hB-hOP" firstAttribute="height" secondItem="rE2-ul-w8f" secondAttribute="height" id="Th7-Tp-heV"/>
+                            <constraint firstItem="rE2-ul-w8f" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ZHJ-Xw-jrq"/>
+                            <constraint firstAttribute="trailing" secondItem="rE2-ul-w8f" secondAttribute="trailing" id="adb-un-VBM"/>
+                            <constraint firstItem="5tw-hB-hOP" firstAttribute="width" secondItem="rE2-ul-w8f" secondAttribute="width" id="bl4-gd-ryU"/>
+                            <constraint firstItem="5tw-hB-hOP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="sgu-37-GbG"/>
+                            <constraint firstItem="rE2-ul-w8f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="vwe-AY-uIe"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="287.5" y="289.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BG_002.png" width="1024" height="819"/>
+        <image name="BG_XanhNhat02.jpg" width="1024" height="351"/>
+        <image name="Line01.GIF" width="600" height="10"/>
+        <image name="RBG02.png" width="1024" height="270"/>
+        <image name="btnAdd1.png" width="22" height="22"/>
+        <image name="btnDelete.png" width="24" height="24"/>
+        <image name="btnExitME.png" width="22" height="22"/>
+        <image name="btnFilter.png" width="22" height="22"/>
+        <image name="btnModify.png" width="22" height="22"/>
+        <image name="btnPrint.png" width="22" height="22"/>
+    </resources>
+</document>
