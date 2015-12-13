@@ -60,18 +60,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sqQ-K0-gVh">
-                                <rect key="frame" x="40" y="40" width="250" height="244"/>
+                                <rect key="frame" x="40" y="40" width="250" height="260"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.15659642930000001" green="1" blue="0.082317320289999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="130" maxY="254"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qX1-Pf-16C">
-                                <rect key="frame" x="310" y="40" width="250" height="244"/>
+                                <rect key="frame" x="310" y="40" width="250" height="260"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.94229718259999995" blue="0.093414234400000004" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1A-Kc-MzM">
-                                <rect key="frame" x="40" y="304" width="520" height="244"/>
+                                <rect key="frame" x="40" y="320" width="520" height="260"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -79,12 +79,12 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="KOg-HE-f3H" firstAttribute="top" secondItem="q1A-Kc-MzM" secondAttribute="bottom" constant="52" id="7lk-Tv-eoD"/>
+                            <constraint firstItem="KOg-HE-f3H" firstAttribute="top" secondItem="q1A-Kc-MzM" secondAttribute="bottom" constant="20" id="7lk-Tv-eoD"/>
                             <constraint firstItem="sqQ-K0-gVh" firstAttribute="leading" secondItem="5hM-zf-CLJ" secondAttribute="leadingMargin" constant="20" id="IUl-NY-ruO"/>
                             <constraint firstItem="sqQ-K0-gVh" firstAttribute="top" secondItem="HmQ-hM-AmC" secondAttribute="bottom" constant="20" id="VBl-xP-Ne6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qX1-Pf-16C" secondAttribute="trailing" constant="20" id="XhW-qm-bwZ"/>
                             <constraint firstItem="qX1-Pf-16C" firstAttribute="width" secondItem="sqQ-K0-gVh" secondAttribute="width" id="cAT-IS-fDF"/>
-                            <constraint firstItem="KOg-HE-f3H" firstAttribute="top" secondItem="q1A-Kc-MzM" secondAttribute="bottom" constant="52" id="eHY-wi-2XM"/>
+                            <constraint firstItem="KOg-HE-f3H" firstAttribute="top" secondItem="q1A-Kc-MzM" secondAttribute="bottom" constant="20" id="eHY-wi-2XM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="q1A-Kc-MzM" secondAttribute="trailing" constant="20" id="eOh-vr-zuB"/>
                             <constraint firstItem="q1A-Kc-MzM" firstAttribute="top" secondItem="sqQ-K0-gVh" secondAttribute="bottom" constant="20" id="lIV-Jt-PcU"/>
                             <constraint firstItem="q1A-Kc-MzM" firstAttribute="leading" secondItem="5hM-zf-CLJ" secondAttribute="leadingMargin" constant="20" id="lTu-qR-SW4"/>
