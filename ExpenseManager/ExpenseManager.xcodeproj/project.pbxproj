@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0960891C37C5F80073D1CB /* BackGround_10.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960851C37C5F80073D1CB /* BackGround_10.png */; settings = {ASSET_TAGS = (); }; };
+		CF09608A1C37C5F80073D1CB /* BackGround_11.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960861C37C5F80073D1CB /* BackGround_11.png */; settings = {ASSET_TAGS = (); }; };
+		CF09608B1C37C5F80073D1CB /* Expenses.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960871C37C5F80073D1CB /* Expenses.png */; settings = {ASSET_TAGS = (); }; };
+		CF09608C1C37C5F80073D1CB /* Income.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960881C37C5F80073D1CB /* Income.png */; settings = {ASSET_TAGS = (); }; };
 		CFBDBEF41C1AC94C0039E10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */; };
 		CFBDBEF91C1AC94C0039E10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBDBEF71C1AC94C0039E10C /* Main.storyboard */; };
 		CFBDBEFB1C1AC94C0039E10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBDBEFA1C1AC94C0039E10C /* Assets.xcassets */; };
@@ -110,6 +114,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0960851C37C5F80073D1CB /* BackGround_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround_10.png; sourceTree = "<group>"; };
+		CF0960861C37C5F80073D1CB /* BackGround_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround_11.png; sourceTree = "<group>"; };
+		CF0960871C37C5F80073D1CB /* Expenses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Expenses.png; sourceTree = "<group>"; };
+		CF0960881C37C5F80073D1CB /* Income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Income.png; sourceTree = "<group>"; };
 		CFBDBEF01C1AC94C0039E10C /* ExpenseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFBDBEF81C1AC94C0039E10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -281,6 +289,10 @@
 		CFBDBF231C1ACD340039E10C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF0960851C37C5F80073D1CB /* BackGround_10.png */,
+				CF0960861C37C5F80073D1CB /* BackGround_11.png */,
+				CF0960871C37C5F80073D1CB /* Expenses.png */,
+				CF0960881C37C5F80073D1CB /* Income.png */,
 				CFBDBF241C1ACD5D0039E10C /* ActivationWizardImage.jpg */,
 				CFBDBF251C1ACD5D0039E10C /* Area.png */,
 				CFBDBF261C1ACD5D0039E10C /* BG_001.jpg */,
@@ -464,6 +476,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF09608A1C37C5F80073D1CB /* BackGround_11.png in Resources */,
 				CFBDBF951C1ACD5D0039E10C /* btnUndoME.png in Resources */,
 				CFBDBFB31C1ACD5D0039E10C /* Sony.jpg in Resources */,
 				CFBDBF771C1ACD5D0039E10C /* Blue_Gradient.jpg in Resources */,
@@ -489,6 +502,7 @@
 				CFBDBF7A1C1ACD5D0039E10C /* btnAddME.png in Resources */,
 				CFBDBF831C1ACD5D0039E10C /* btnFindME.png in Resources */,
 				CFBDBFB11C1ACD5D0039E10C /* ripple.jpg in Resources */,
+				CF09608B1C37C5F80073D1CB /* Expenses.png in Resources */,
 				CFBDBEFE1C1AC94C0039E10C /* LaunchScreen.storyboard in Resources */,
 				CFBDBF981C1ACD5D0039E10C /* CustomerGroup.png in Resources */,
 				CFBDBF9A1C1ACD5D0039E10C /* Goods.png in Resources */,
@@ -516,6 +530,7 @@
 				CFBDBF911C1ACD5D0039E10C /* btnRefreshME.png in Resources */,
 				CFBDBF741C1ACD5D0039E10C /* BG_XanhNhat01.jpg in Resources */,
 				CFBDBFAB1C1ACD5D0039E10C /* PlayME.png in Resources */,
+				CF0960891C37C5F80073D1CB /* BackGround_10.png in Resources */,
 				CFBDBFB81C1ACD5D0039E10C /* UserDelete.png in Resources */,
 				CFBDBFB91C1ACD5D0039E10C /* UserEdit.png in Resources */,
 				CFBDBFBB1C1ACD5D0039E10C /* WareHouse.png in Resources */,
@@ -535,6 +550,7 @@
 				CFBDBF731C1ACD5D0039E10C /* BG_002.png in Resources */,
 				CFBDBF701C1ACD5D0039E10C /* ActivationWizardImage.jpg in Resources */,
 				CFBDBF9E1C1ACD5D0039E10C /* HF_OpenView.gif in Resources */,
+				CF09608C1C37C5F80073D1CB /* Income.png in Resources */,
 				CFBDBFA21C1ACD5D0039E10C /* Journal.png in Resources */,
 				CFBDBF871C1ACD5D0039E10C /* btnLastME.png in Resources */,
 				CFBDBF901C1ACD5D0039E10C /* btnRefresh.png in Resources */,
@@ -795,6 +811,7 @@
 				CFBDBF1A1C1AC94D0039E10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFBDBF1B1C1AC94D0039E10C /* Build configuration list for PBXNativeTarget "ExpenseManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -803,6 +820,7 @@
 				CFBDBF1D1C1AC94D0039E10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFBDBF1E1C1AC94D0039E10C /* Build configuration list for PBXNativeTarget "ExpenseManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -811,6 +829,7 @@
 				CFBDBF201C1AC94D0039E10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
