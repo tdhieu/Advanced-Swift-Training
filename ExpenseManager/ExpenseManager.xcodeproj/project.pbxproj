@@ -7,10 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF02B8991C46642500AF177C /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02B8981C46642500AF177C /* FilterView.swift */; settings = {ASSET_TAGS = (); }; };
 		CF0960891C37C5F80073D1CB /* BackGround_10.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960851C37C5F80073D1CB /* BackGround_10.png */; settings = {ASSET_TAGS = (); }; };
 		CF09608A1C37C5F80073D1CB /* BackGround_11.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960861C37C5F80073D1CB /* BackGround_11.png */; settings = {ASSET_TAGS = (); }; };
-		CF09608B1C37C5F80073D1CB /* Expenses.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960871C37C5F80073D1CB /* Expenses.png */; settings = {ASSET_TAGS = (); }; };
 		CF09608C1C37C5F80073D1CB /* Income.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0960881C37C5F80073D1CB /* Income.png */; settings = {ASSET_TAGS = (); }; };
+		CF10F9961C3910C600895B22 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10F9951C3910C600895B22 /* AddView.swift */; settings = {ASSET_TAGS = (); }; };
+		CF10F9981C3910E000895B22 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10F9971C3910E000895B22 /* EditView.swift */; settings = {ASSET_TAGS = (); }; };
+		CF122CF61C38E62A0007C66B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122CF41C38E62A0007C66B /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		CF122CF71C38E62A0007C66B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122CF51C38E62A0007C66B /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		CF122CF91C38E66C0007C66B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122CF81C38E66C0007C66B /* AudioToolbox.framework */; };
+		CF122CFB1C38E6890007C66B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122CFA1C38E6890007C66B /* CFNetwork.framework */; };
+		CF122CFD1C38E69E0007C66B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122CFC1C38E69E0007C66B /* CoreGraphics.framework */; };
+		CF122CFF1C38E6A60007C66B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122CFE1C38E6A60007C66B /* CoreLocation.framework */; };
+		CF122D011C38E6AF0007C66B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D001C38E6AF0007C66B /* QuartzCore.framework */; };
+		CF122D031C38E6B70007C66B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D021C38E6B70007C66B /* Security.framework */; };
+		CF122D051C38E6BE0007C66B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D041C38E6BE0007C66B /* StoreKit.framework */; };
+		CF122D071C38E6C90007C66B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D061C38E6C90007C66B /* SystemConfiguration.framework */; };
+		CF122D091C38E6D50007C66B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D081C38E6D50007C66B /* libz.tbd */; };
+		CF122D0B1C38E6E10007C66B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D0A1C38E6E10007C66B /* libsqlite3.tbd */; };
+		CF1DC0801C45DE0900B5F4E7 /* email icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1DC07F1C45DE0900B5F4E7 /* email icon.png */; settings = {ASSET_TAGS = (); }; };
+		CF213EC01C39F63E000655A1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF213EBF1C39F63E000655A1 /* MainTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		CFB4C7DD1C3BABBB00789247 /* Outcome.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB4C7DC1C3BABBB00789247 /* Outcome.png */; settings = {ASSET_TAGS = (); }; };
 		CFBDBEF41C1AC94C0039E10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */; };
 		CFBDBEF91C1AC94C0039E10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBDBEF71C1AC94C0039E10C /* Main.storyboard */; };
 		CFBDBEFB1C1AC94C0039E10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBDBEFA1C1AC94C0039E10C /* Assets.xcassets */; };
@@ -114,10 +131,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF02B8981C46642500AF177C /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterView.swift; path = ../FilterView.swift; sourceTree = "<group>"; };
 		CF0960851C37C5F80073D1CB /* BackGround_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround_10.png; sourceTree = "<group>"; };
 		CF0960861C37C5F80073D1CB /* BackGround_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround_11.png; sourceTree = "<group>"; };
-		CF0960871C37C5F80073D1CB /* Expenses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Expenses.png; sourceTree = "<group>"; };
 		CF0960881C37C5F80073D1CB /* Income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Income.png; sourceTree = "<group>"; };
+		CF10F9951C3910C600895B22 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddView.swift; path = ../AddView.swift; sourceTree = "<group>"; };
+		CF10F9971C3910E000895B22 /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditView.swift; path = ../EditView.swift; sourceTree = "<group>"; };
+		CF122CF41C38E62A0007C66B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CF122CF51C38E62A0007C66B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CF122CF81C38E66C0007C66B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF122CFA1C38E6890007C66B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF122CFC1C38E69E0007C66B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF122CFE1C38E6A60007C66B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF122D001C38E6AF0007C66B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF122D021C38E6B70007C66B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF122D041C38E6BE0007C66B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CF122D061C38E6C90007C66B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF122D081C38E6D50007C66B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CF122D0A1C38E6E10007C66B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CF1DC07F1C45DE0900B5F4E7 /* email icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email icon.png"; path = "../../email icon.png"; sourceTree = "<group>"; };
+		CF213EBF1C39F63E000655A1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = ../MainTableViewCell.swift; sourceTree = "<group>"; };
+		CFB4C7DC1C3BABBB00789247 /* Outcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Outcome.png; sourceTree = "<group>"; };
 		CFBDBEF01C1AC94C0039E10C /* ExpenseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFBDBEF81C1AC94C0039E10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -214,6 +248,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF122D0B1C38E6E10007C66B /* libsqlite3.tbd in Frameworks */,
+				CF122D091C38E6D50007C66B /* libz.tbd in Frameworks */,
+				CF122D071C38E6C90007C66B /* SystemConfiguration.framework in Frameworks */,
+				CF122D051C38E6BE0007C66B /* StoreKit.framework in Frameworks */,
+				CF122D031C38E6B70007C66B /* Security.framework in Frameworks */,
+				CF122D011C38E6AF0007C66B /* QuartzCore.framework in Frameworks */,
+				CF122CFF1C38E6A60007C66B /* CoreLocation.framework in Frameworks */,
+				CF122CFD1C38E69E0007C66B /* CoreGraphics.framework in Frameworks */,
+				CF122CFB1C38E6890007C66B /* CFNetwork.framework in Frameworks */,
+				CF122CF91C38E66C0007C66B /* AudioToolbox.framework in Frameworks */,
+				CF122CF71C38E62A0007C66B /* Parse.framework in Frameworks */,
+				CF122CF61C38E62A0007C66B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +280,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF122CF31C38E6150007C66B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CF122D0A1C38E6E10007C66B /* libsqlite3.tbd */,
+				CF122D081C38E6D50007C66B /* libz.tbd */,
+				CF122D061C38E6C90007C66B /* SystemConfiguration.framework */,
+				CF122D041C38E6BE0007C66B /* StoreKit.framework */,
+				CF122D021C38E6B70007C66B /* Security.framework */,
+				CF122D001C38E6AF0007C66B /* QuartzCore.framework */,
+				CF122CFE1C38E6A60007C66B /* CoreLocation.framework */,
+				CF122CFC1C38E69E0007C66B /* CoreGraphics.framework */,
+				CF122CFA1C38E6890007C66B /* CFNetwork.framework */,
+				CF122CF81C38E66C0007C66B /* AudioToolbox.framework */,
+				CF122CF41C38E62A0007C66B /* Bolts.framework */,
+				CF122CF51C38E62A0007C66B /* Parse.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		CFBDBEE71C1AC94C0039E10C = {
 			isa = PBXGroup;
 			children = (
@@ -257,9 +322,14 @@
 		CFBDBEF21C1AC94C0039E10C /* ExpenseManager */ = {
 			isa = PBXGroup;
 			children = (
+				CF122CF31C38E6150007C66B /* Libraries */,
 				CFBDBF231C1ACD340039E10C /* Resources */,
 				CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */,
+				CF213EBF1C39F63E000655A1 /* MainTableViewCell.swift */,
 				CFBDBF211C1ACBF50039E10C /* MainView.swift */,
+				CF10F9951C3910C600895B22 /* AddView.swift */,
+				CF10F9971C3910E000895B22 /* EditView.swift */,
+				CF02B8981C46642500AF177C /* FilterView.swift */,
 				CFBDBEF71C1AC94C0039E10C /* Main.storyboard */,
 				CFBDBEFA1C1AC94C0039E10C /* Assets.xcassets */,
 				CFBDBEFC1C1AC94C0039E10C /* LaunchScreen.storyboard */,
@@ -289,9 +359,10 @@
 		CFBDBF231C1ACD340039E10C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF1DC07F1C45DE0900B5F4E7 /* email icon.png */,
+				CFB4C7DC1C3BABBB00789247 /* Outcome.png */,
 				CF0960851C37C5F80073D1CB /* BackGround_10.png */,
 				CF0960861C37C5F80073D1CB /* BackGround_11.png */,
-				CF0960871C37C5F80073D1CB /* Expenses.png */,
 				CF0960881C37C5F80073D1CB /* Income.png */,
 				CFBDBF241C1ACD5D0039E10C /* ActivationWizardImage.jpg */,
 				CFBDBF251C1ACD5D0039E10C /* Area.png */,
@@ -502,7 +573,6 @@
 				CFBDBF7A1C1ACD5D0039E10C /* btnAddME.png in Resources */,
 				CFBDBF831C1ACD5D0039E10C /* btnFindME.png in Resources */,
 				CFBDBFB11C1ACD5D0039E10C /* ripple.jpg in Resources */,
-				CF09608B1C37C5F80073D1CB /* Expenses.png in Resources */,
 				CFBDBEFE1C1AC94C0039E10C /* LaunchScreen.storyboard in Resources */,
 				CFBDBF981C1ACD5D0039E10C /* CustomerGroup.png in Resources */,
 				CFBDBF9A1C1ACD5D0039E10C /* Goods.png in Resources */,
@@ -512,6 +582,7 @@
 				CFBDBFB61C1ACD5D0039E10C /* System_Hibernate1.png in Resources */,
 				CFBDBF7E1C1ACD5D0039E10C /* btnExit.png in Resources */,
 				CFBDBF961C1ACD5D0039E10C /* ButtonExit.png in Resources */,
+				CFB4C7DD1C3BABBB00789247 /* Outcome.png in Resources */,
 				CFBDBF8E1C1ACD5D0039E10C /* btnPrint.png in Resources */,
 				CFBDBF8B1C1ACD5D0039E10C /* btnNextME.png in Resources */,
 				CFBDBFB71C1ACD5D0039E10C /* System_Hibernate2.png in Resources */,
@@ -538,6 +609,7 @@
 				CFBDBF761C1ACD5D0039E10C /* BGB01.png in Resources */,
 				CFBDBF821C1ACD5D0039E10C /* btnFind.png in Resources */,
 				CFBDBFB51C1ACD5D0039E10C /* System_Enter2.png in Resources */,
+				CF1DC0801C45DE0900B5F4E7 /* email icon.png in Resources */,
 				CFBDBF8D1C1ACD5D0039E10C /* btnPreviousME.png in Resources */,
 				CFBDBF7D1C1ACD5D0039E10C /* btnDeleteME.png in Resources */,
 				CFBDBFAF1C1ACD5D0039E10C /* RBG03.png in Resources */,
@@ -585,6 +657,10 @@
 			files = (
 				CFBDBEF41C1AC94C0039E10C /* AppDelegate.swift in Sources */,
 				CFBDBF221C1ACBF50039E10C /* MainView.swift in Sources */,
+				CF10F9981C3910E000895B22 /* EditView.swift in Sources */,
+				CF10F9961C3910C600895B22 /* AddView.swift in Sources */,
+				CF02B8991C46642500AF177C /* FilterView.swift in Sources */,
+				CF213EC01C39F63E000655A1 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +802,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExpenseManager",
+				);
 				INFOPLIST_FILE = ExpenseManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.ExpenseManager;
@@ -737,6 +817,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExpenseManager",
+				);
 				INFOPLIST_FILE = ExpenseManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SmartAppEDU.ExpenseManager;

@@ -34,6 +34,7 @@ class ViewController: UIViewController {
 
        
         let query = PFQuery(className:"Employee")
+//        let query = PFQuery(className:"ExpenseManager")
 //        query.whereKey("Name", equalTo:"Tran Duc Hieu")
         query.findObjectsInBackgroundWithBlock {
             (objects: [PFObject]?, error: NSError?) -> Void in
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
                 // Do something with the found objects
                 if let objects = objects as [PFObject]! {
                     for object in objects {
-                        print(object["Address"] as! String)
+                        print(object["objectId"] as! String)
                     }
                 }
             }
