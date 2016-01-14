@@ -61,7 +61,13 @@ class EditView: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
                 self.expenseType = object?.objectForKey("ExpenseType") as! String
                 self.loadOkay = true
             } else {
-                print("#Loading data error!!")
+                let alert = UIAlertController(title: "Thông báo", message: "Không lấy được dữ liệu. Vui lòng kiểm tra lại kết nối!", preferredStyle: UIAlertControllerStyle.Alert)
+                
+                // Thêm hành động
+                alert.addAction(UIAlertAction(title: "Trở lại", style: UIAlertActionStyle.Default, handler: nil))
+                
+                // Hiển thị cảnh báo
+                self.presentViewController(alert, animated: true, completion: nil)
             }
         }
     }

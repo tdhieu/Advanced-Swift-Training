@@ -29,6 +29,7 @@ class FilterView: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
     var expenseAmount:String = ""
     var expenseContent:String = ""
     var expenseDate:String = ""
+    var focusDate:String = ""
     
     var param:NSUserDefaults = NSUserDefaults()
     
@@ -78,19 +79,57 @@ class FilterView: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
         expenseContent = pickerViewDataSource[row]
     }
 
+    @IBAction func tbxFromDateFocused(sender: AnyObject) {
+        focusDate = "FromDate"
+    }
+    
+    @IBAction func tbxToDateFocused(sender: AnyObject) {
+        focusDate = "ToDate"
+    }
     
     @IBAction func myDatePickerChanged(sender: AnyObject) {
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "dd-MM-yyyy"
         let strDate = dateFormatter.stringFromDate(myDatePicker.date)
         self.expenseDate = strDate
+        if focusDate == "FromDate" {
+            tbxDateFrom.text = strDate
+        } else if focusDate == "ToDate" {
+            tbxDateTo.text = strDate
+        }
     }
     
     @IBAction func btnProceed(sender: AnyObject) {
-        let strFilter:String = ""
-        param.setValue(strFilter, forKey: "FilterString")
-        NSNotificationCenter.defaultCenter().postNotificationName("FilterView Param", object: nil)
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "dd-MM-yyyy"
 
+        let fromDate = dateFormatter.dateFromString(tbxDateFrom.text!)
+        let toDate = dateFormatter.dateFromString(tbxDateTo.text!)
+        
+        let order = NSCalendar.currentCalendar().compareDate(fromDate!, toDate: toDate!, toUnitGranularity: .Day)
+
+        if order == .OrderedDescending {
+            let alert = UIAlertController(title: "Thông báo", message: "Ngày bắt đầu lớn hơn ngày kết thúc!", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            // Thêm hành động
+            alert.addAction(UIAlertAction(title: "Đồng ý", style: UIAlertActionStyle.Default, handler: nil))
+            
+            // Hiển thị cảnh báo
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else {
+            var arrFilter:[String] = []
+
+            arrFilter.append(dateFrom)
+            arrFilter.append(dateTo)
+            arrFilter.append(expenseType)
+            arrFilter.append(compare)
+            arrFilter.append(expenseAmount)
+            arrFilter.append(expenseContent)
+            
+            param.setValue(arrFilter, forKey: "FilterParams")
+            NSNotificationCenter.defaultCenter().postNotificationName("FilterView Param", object: nil)
+        }
     }
     
     @IBAction func btnCancel(sender: AnyObject) {
@@ -102,8 +141,11 @@ class FilterView: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
         myCategoryPicker.delegate = self
         myCategoryPicker.dataSource = self
         
-        tbxDateFrom.text = ""
-        tbxDateTo.text = ""
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "dd-MM-yyyy"
+        
+        tbxDateFrom.text = dateFormatter.stringFromDate(myDatePicker.date)
+        tbxDateTo.text = dateFormatter.stringFromDate(myDatePicker.date)
         
         mySelector.selectedSegmentIndex = 0
         

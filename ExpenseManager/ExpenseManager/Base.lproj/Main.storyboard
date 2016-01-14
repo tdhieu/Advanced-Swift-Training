@@ -570,6 +570,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="tbxDateFromEditted:" destination="rsn-Kh-Gnw" eventType="editingDidEnd" id="lxX-ks-LEe"/>
+                                    <action selector="tbxFromDateFocused:" destination="rsn-Kh-Gnw" eventType="touchDown" id="zBS-Ud-4yU"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--&gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kti-c1-Oqs">
@@ -620,6 +621,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="tbxDateToEditted:" destination="rsn-Kh-Gnw" eventType="editingDidEnd" id="ZFT-Ba-sWM"/>
+                                    <action selector="tbxToDateFocused:" destination="rsn-Kh-Gnw" eventType="touchDown" id="xN9-tO-1DF"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ngày" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECZ-ph-C3F">

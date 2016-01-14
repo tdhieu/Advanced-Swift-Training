@@ -25,8 +25,8 @@
 		CF122D071C38E6C90007C66B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D061C38E6C90007C66B /* SystemConfiguration.framework */; };
 		CF122D091C38E6D50007C66B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D081C38E6D50007C66B /* libz.tbd */; };
 		CF122D0B1C38E6E10007C66B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF122D0A1C38E6E10007C66B /* libsqlite3.tbd */; };
-		CF1DC0801C45DE0900B5F4E7 /* email icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1DC07F1C45DE0900B5F4E7 /* email icon.png */; settings = {ASSET_TAGS = (); }; };
 		CF213EC01C39F63E000655A1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF213EBF1C39F63E000655A1 /* MainTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		CF4804B01C477C720082312B /* email icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4804AF1C477C720082312B /* email icon.png */; settings = {ASSET_TAGS = (); }; };
 		CFB4C7DD1C3BABBB00789247 /* Outcome.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB4C7DC1C3BABBB00789247 /* Outcome.png */; settings = {ASSET_TAGS = (); }; };
 		CFBDBEF41C1AC94C0039E10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */; };
 		CFBDBEF91C1AC94C0039E10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBDBEF71C1AC94C0039E10C /* Main.storyboard */; };
@@ -149,8 +149,8 @@
 		CF122D061C38E6C90007C66B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CF122D081C38E6D50007C66B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CF122D0A1C38E6E10007C66B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		CF1DC07F1C45DE0900B5F4E7 /* email icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email icon.png"; path = "../../email icon.png"; sourceTree = "<group>"; };
 		CF213EBF1C39F63E000655A1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = ../MainTableViewCell.swift; sourceTree = "<group>"; };
+		CF4804AF1C477C720082312B /* email icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email icon.png"; sourceTree = "<group>"; };
 		CFB4C7DC1C3BABBB00789247 /* Outcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Outcome.png; sourceTree = "<group>"; };
 		CFBDBEF01C1AC94C0039E10C /* ExpenseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBDBEF31C1AC94C0039E10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -359,7 +359,7 @@
 		CFBDBF231C1ACD340039E10C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF1DC07F1C45DE0900B5F4E7 /* email icon.png */,
+				CF4804AF1C477C720082312B /* email icon.png */,
 				CFB4C7DC1C3BABBB00789247 /* Outcome.png */,
 				CF0960851C37C5F80073D1CB /* BackGround_10.png */,
 				CF0960861C37C5F80073D1CB /* BackGround_11.png */,
@@ -609,7 +609,7 @@
 				CFBDBF761C1ACD5D0039E10C /* BGB01.png in Resources */,
 				CFBDBF821C1ACD5D0039E10C /* btnFind.png in Resources */,
 				CFBDBFB51C1ACD5D0039E10C /* System_Enter2.png in Resources */,
-				CF1DC0801C45DE0900B5F4E7 /* email icon.png in Resources */,
+				CF4804B01C477C720082312B /* email icon.png in Resources */,
 				CFBDBF8D1C1ACD5D0039E10C /* btnPreviousME.png in Resources */,
 				CFBDBF7D1C1ACD5D0039E10C /* btnDeleteME.png in Resources */,
 				CFBDBFAF1C1ACD5D0039E10C /* RBG03.png in Resources */,
